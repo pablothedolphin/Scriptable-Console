@@ -13,3 +13,5 @@ MonoBehaviour:
   m_Name: Load Scene Command (load_scene)
   m_EditorClassIdentifier: 
   commandWord: load_scene
+  description: '{string[]} > Joins arguments to a single string and loads a scene
+    of the same name.'

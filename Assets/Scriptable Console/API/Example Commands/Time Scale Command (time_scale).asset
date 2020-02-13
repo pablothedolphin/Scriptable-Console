@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: Time Scale Command (time_scale)
   m_EditorClassIdentifier: 
   commandWord: time_scale
+  description: '{float} > Sets Time.timeScale to a new value.'

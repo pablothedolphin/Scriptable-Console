@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c6faaa80f0338a4984cbee296dc63d0, type: 3}
-  m_Name: Log Command (log)
+  m_Script: {fileID: 11500000, guid: 701a48515db0e6f4db1a759bf63732d2, type: 3}
+  m_Name: Clear Command (clear)
   m_EditorClassIdentifier: 
-  commandWord: log
-  description: '{string[]} > Logs all arguments straight to the console'
+  commandWord: clear
+  description: '{} > Clears the current list of console entries.'

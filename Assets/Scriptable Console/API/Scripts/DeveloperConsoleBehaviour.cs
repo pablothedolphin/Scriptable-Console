@@ -1,4 +1,7 @@
 ﻿using TMPro;
+using System.Linq;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using static UnityEngine.InputSystem.InputAction;
 
@@ -6,7 +9,7 @@ namespace ScriptableFramework.DeveloperConsole
 {
 	public class DeveloperConsoleBehaviour : MonoBehaviour
 	{
-		[SerializeField] protected ConsoleCommand[] commands = new ConsoleCommand[0];
+		[SerializeField] protected List<ConsoleCommand> commands = new List<ConsoleCommand> ();
 
 		[Header ("UI")]
 		[SerializeField] protected GameObject uiCanvas = null;
@@ -45,7 +48,14 @@ namespace ScriptableFramework.DeveloperConsole
 
 			instance = this;
 
+			SortCommands ();
+
 			DontDestroyOnLoad (gameObject);
+		}
+
+		protected virtual void SortCommands ()
+		{
+			commands = commands.OrderBy (c => c.commandWord).ToList ();
 		}
 
 		protected virtual void OnEnable ()
@@ -126,6 +136,11 @@ namespace ScriptableFramework.DeveloperConsole
 		{
 			inputField.text = newText;
 			inputField.caretPosition = inputField.text.Length;
+		}
+
+		public virtual void ClearConsoleEntries ()
+		{
+			entriesParent.DestroyChildren ();
 		}
 	}
 }

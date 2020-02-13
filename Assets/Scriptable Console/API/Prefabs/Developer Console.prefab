@@ -60,7 +60,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.5882353}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.9019608}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -443,7 +443,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 10000
+  m_SortingOrder: 32767
   m_TargetDisplay: 0
 --- !u!114 &1005529013
 MonoBehaviour:
@@ -462,7 +462,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 1
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -1083,6 +1083,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d8ce4200a42e2244c8dd47babedc897e, type: 2}
   - {fileID: 11400000, guid: 7495ca3db523bd842b3873c05d523805, type: 2}
   - {fileID: 11400000, guid: fa7e1bfa72c20484f807d664d6be9e86, type: 2}
+  - {fileID: 11400000, guid: e2edf3ff5bb42e148b3aeb8af493a8d1, type: 2}
   uiCanvas: {fileID: 1005529010}
   inputField: {fileID: 1669160770}
   entriesParent: {fileID: 8900114365977628302}

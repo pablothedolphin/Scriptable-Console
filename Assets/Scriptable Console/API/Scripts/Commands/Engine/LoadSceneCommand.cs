@@ -8,16 +8,14 @@ namespace ScriptableFramework.DeveloperConsole
 	{
 		public override bool Process (string[] args)
 		{
-			if (args.Length != 1) { return false; }
+			string sceneName = string.Join (" ", args);
 
 			try
 			{
-				SceneManager.LoadScene (args[0], LoadSceneMode.Single);
+				SceneManager.LoadScene (sceneName, LoadSceneMode.Single);
 			}
 			catch
 			{
-				Debug.LogError ("Couldn't load scene: " + args[0]);
-
 				return false;
 			}
 

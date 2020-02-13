@@ -7,7 +7,11 @@ namespace ScriptableFramework.DeveloperConsole
 	{
 		public override bool Process (string[] args)
 		{
+			if (args.Length == 0) return false;
+
 			string logText = string.Join (" ", args);
+
+			if (string.IsNullOrWhiteSpace (logText)) return false;
 
 			Debug.Log (logText);
 

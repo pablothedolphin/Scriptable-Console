@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: Gravity Command (gravity)
   m_EditorClassIdentifier: 
   commandWord: gravity
+  description: '{float} > Sets the Y component of Pysics.gravity.'
