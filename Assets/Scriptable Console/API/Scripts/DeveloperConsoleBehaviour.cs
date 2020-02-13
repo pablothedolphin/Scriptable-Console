@@ -6,16 +6,27 @@ namespace ScriptableFramework.DeveloperConsole
 {
 	public class DeveloperConsoleBehaviour : MonoBehaviour
 	{
-		[SerializeField] private ConsoleCommand[] commands = new ConsoleCommand[0];
+		[SerializeField] protected ConsoleCommand[] commands = new ConsoleCommand[0];
 
 		[Header ("UI")]
-		[SerializeField] private GameObject uiCanvas = null;
-		[SerializeField] private TMP_InputField inputField = null;
+		[SerializeField] protected GameObject uiCanvas = null;
+		[SerializeField] protected TMP_InputField inputField = null;
+		[SerializeField] protected Transform entriesParent = null;
+		[SerializeField] [Range (20, 100)] protected int maxEntryCount = 20;
 
-		private static DeveloperConsoleBehaviour instance;
+		[Header ("Prefabs")]
+		[SerializeField] protected ConsoleEntry logPrefab = null;
+		[SerializeField] protected ConsoleEntry warningPrefab = null;
+		[SerializeField] protected ConsoleEntry errorPrefab = null;
+		[SerializeField] protected ConsoleEntry commandPrefab = null;
+		[SerializeField] protected ConsoleEntry failedCommandPrefab = null;
 
-		private DeveloperConsole developerConsole;
-		private DeveloperConsole DeveloperConsole
+
+
+		public static DeveloperConsoleBehaviour instance;
+
+		protected DeveloperConsole developerConsole;
+		protected DeveloperConsole DeveloperConsole
 		{
 			get
 			{
@@ -24,7 +35,7 @@ namespace ScriptableFramework.DeveloperConsole
 			}
 		}
 
-		private void Awake ()
+		protected virtual void Awake ()
 		{
 			if (instance != null && instance != this)
 			{
@@ -37,7 +48,50 @@ namespace ScriptableFramework.DeveloperConsole
 			DontDestroyOnLoad (gameObject);
 		}
 
-		public void Toggle (CallbackContext context)
+		protected virtual void OnEnable ()
+		{
+			Application.logMessageReceived += HandleLog;
+		}
+
+		protected virtual void OnDisable ()
+		{
+			Application.logMessageReceived -= HandleLog;
+		}
+
+		protected virtual void HandleLog (string logString, string stackTrace, LogType type)
+		{
+			switch (type)
+			{
+				case LogType.Log:
+					InstantiateNewEntry (logPrefab, logString);
+					break;
+				case LogType.Warning:
+					InstantiateNewEntry (warningPrefab, logString);
+					break;
+				case LogType.Error:
+					InstantiateNewEntry (errorPrefab, logString);
+					break;
+				case LogType.Exception:
+					InstantiateNewEntry (errorPrefab, logString);
+					break;
+			}
+		}
+
+		protected virtual void InstantiateNewEntry (ConsoleEntry prefab, string entryText)
+		{
+			ConsoleEntry entry = Instantiate (prefab, entriesParent);
+
+			entry.SetText (entryText);
+
+			entry.transform.SetSiblingIndex (0);
+
+			while (entriesParent.childCount > maxEntryCount)
+			{
+				Destroy (entriesParent.GetChild (entriesParent.childCount - 1));
+			}
+		}
+
+		public virtual void Toggle (CallbackContext context)
 		{
 			if (!context.action.triggered) { return; }
 
@@ -52,11 +106,26 @@ namespace ScriptableFramework.DeveloperConsole
 			}
 		}
 
-		public void ProcessCommand (string inputValue)
+		public virtual void ProcessCommand (string inputValue)
 		{
-			DeveloperConsole.ProcessCommand (inputValue);
-
 			inputField.text = string.Empty;
+
+			if (string.IsNullOrWhiteSpace (inputValue)) return;
+
+			if (DeveloperConsole.ProcessCommand (inputValue))
+			{
+				InstantiateNewEntry (commandPrefab, inputValue);
+			}
+			else
+			{
+				InstantiateNewEntry (failedCommandPrefab, inputValue);
+			}
+		}
+
+		public virtual void SetInputFieldText (string newText)
+		{
+			inputField.text = newText;
+			inputField.caretPosition = inputField.text.Length;
 		}
 	}
 }
