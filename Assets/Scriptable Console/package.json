@@ -2,7 +2,7 @@
   "name": "com.open.scriptable-console",
   "displayName": "Scriptable Console",
   "author": "Jak Hussain",
-  "version": "0.1.0-preview",
+  "version": "0.2.1-preview",
   "unity": "2019.3",
   "description": "Allows the addition of a lightweight developer console in play mode with completely scriptable commands and arguments.",
   "keywords": [

@@ -2,10 +2,10 @@
 
 namespace ScriptableFramework.DeveloperConsole
 {
-	[CreateAssetMenu (menuName = "Console Commands/Scriptable Framework/Raise App Event")]
+	[CreateAssetMenu (menuName = "Console Commands/Scriptable Framework/AppEvent Command")]
 	public class AppEventCommand : ConsoleCommand
 	{
-		[SerializeField] private AppEvent appEvent = null;
+		[SerializeField] protected AppEvent appEvent = null;
 
 		public override bool Process (string[] args)
 		{
