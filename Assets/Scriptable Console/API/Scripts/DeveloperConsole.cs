@@ -6,21 +6,15 @@ namespace ScriptableFramework.DeveloperConsole
 {
 	public class DeveloperConsole
 	{
-		private readonly string prefix;
 		private readonly IEnumerable<IConsoleCommand> commands;
 
-		public DeveloperConsole (string prefix, IEnumerable<IConsoleCommand> commands)
+		public DeveloperConsole (IEnumerable<IConsoleCommand> commands)
 		{
-			this.prefix = prefix;
 			this.commands = commands;
 		}
 
 		public void ProcessCommand (string inputValue)
 		{
-			if (!inputValue.StartsWith (prefix)) { return; }
-
-			inputValue = inputValue.Remove (0, prefix.Length);
-
 			string[] inputSplit = inputValue.Split (' ');
 
 			string commandInput = inputSplit[0];

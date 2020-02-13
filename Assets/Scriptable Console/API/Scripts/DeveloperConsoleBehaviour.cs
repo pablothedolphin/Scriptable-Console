@@ -6,7 +6,6 @@ namespace ScriptableFramework.DeveloperConsole
 {
 	public class DeveloperConsoleBehaviour : MonoBehaviour
 	{
-		[SerializeField] private string prefix = string.Empty;
 		[SerializeField] private ConsoleCommand[] commands = new ConsoleCommand[0];
 
 		[Header ("UI")]
@@ -21,7 +20,7 @@ namespace ScriptableFramework.DeveloperConsole
 			get
 			{
 				if (developerConsole != null) { return developerConsole; }
-				return developerConsole = new DeveloperConsole (prefix, commands);
+				return developerConsole = new DeveloperConsole (commands);
 			}
 		}
 

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 385749010}
   - component: {fileID: 385749009}
   m_Layer: 0
-  m_Name: Background_ConsoleCommands
+  m_Name: Background (Image)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -397,12 +397,12 @@ GameObject:
   - component: {fileID: 1005529013}
   - component: {fileID: 1005529012}
   m_Layer: 0
-  m_Name: Canvas_ConsoleCommands
+  m_Name: Console Commands (Canvas)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1005529011
 RectTransform:
   m_ObjectHideFlags: 0
@@ -546,7 +546,7 @@ GameObject:
   - component: {fileID: 1669160771}
   - component: {fileID: 1669160770}
   m_Layer: 0
-  m_Name: InputField_ConsoleCommands
+  m_Name: Command Entry (TMP Input Field)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -771,7 +771,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f30758f307b05384e9a9ff460034d4be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefix: /
   commands:
   - {fileID: 11400000, guid: d63ee88dcccb5404a876e3d1c0ad74cc, type: 2}
   - {fileID: 11400000, guid: d8ce4200a42e2244c8dd47babedc897e, type: 2}
