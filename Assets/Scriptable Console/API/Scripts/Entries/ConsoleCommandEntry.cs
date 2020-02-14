@@ -5,8 +5,14 @@ using TMPro;
 
 namespace ScriptableFramework.DeveloperConsole
 {
+	/// <summary>
+	/// 
+	/// </summary>
 	public class ConsoleCommandEntry : ConsoleEntry
 	{
+		/// <summary>
+		/// 
+		/// </summary>
 		public virtual void GetText ()
 		{
 			DeveloperConsoleBehaviour.instance.SetInputFieldText (entryText.text);

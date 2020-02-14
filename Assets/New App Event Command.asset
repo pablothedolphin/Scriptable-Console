@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6752997851f24ed49afcf97800e09235, type: 3}
   m_Name: New App Event Command
   m_EditorClassIdentifier: 
-  commandWord: 
-  description: 
-  appEvent: {fileID: 0}
+  commandWord: light_off
+  description: '{} > turn the directional light off.'
+  appEvent: {fileID: 11400000, guid: 3616721f835342f4a88c0d1386e51a40, type: 2}

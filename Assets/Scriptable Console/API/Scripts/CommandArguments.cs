@@ -5,8 +5,17 @@ using System.Collections.Generic;
 
 namespace ScriptableFramework.DeveloperConsole
 {
+	/// <summary>
+	/// 
+	/// </summary>
 	public static class CommandArguments
 	{
+		/// <summary>
+		/// 
+		/// </summary>
+		/// <param name="argument"></param>
+		/// <param name="value"></param>
+		/// <returns></returns>
 		public static bool TryParse (string argument, out Vector2 value)
 		{
 			value = Vector2.zero;
@@ -23,6 +32,12 @@ namespace ScriptableFramework.DeveloperConsole
 			return true;
 		}
 
+		/// <summary>
+		/// 
+		/// </summary>
+		/// <param name="argument"></param>
+		/// <param name="value"></param>
+		/// <returns></returns>
 		public static bool TryParse (string argument, out Vector3 value)
 		{
 			value = Vector3.zero;
@@ -40,6 +55,12 @@ namespace ScriptableFramework.DeveloperConsole
 			return true;
 		}
 
+		/// <summary>
+		/// 
+		/// </summary>
+		/// <param name="argument"></param>
+		/// <param name="value"></param>
+		/// <returns></returns>
 		public static bool TryParse (string argument, out Bounds value)
 		{
 			value = new Bounds ();
@@ -61,6 +82,12 @@ namespace ScriptableFramework.DeveloperConsole
 			return true;
 		}
 
+		/// <summary>
+		/// 
+		/// </summary>
+		/// <param name="argument"></param>
+		/// <param name="strippedArgument"></param>
+		/// <returns></returns>
 		private static bool TryStripBrackets (string argument, out string strippedArgument)
 		{
 			strippedArgument = "";
@@ -72,6 +99,13 @@ namespace ScriptableFramework.DeveloperConsole
 			return true;
 		}
 
+		/// <summary>
+		/// 
+		/// </summary>
+		/// <param name="strippedArgument"></param>
+		/// <param name="componentCount"></param>
+		/// <param name="components"></param>
+		/// <returns></returns>
 		private static bool TrySplitComponents (string strippedArgument, int componentCount, out string[] components)
 		{
 			components = new string[0];

@@ -7,28 +7,77 @@ using static UnityEngine.InputSystem.InputAction;
 
 namespace ScriptableFramework.DeveloperConsole
 {
+	/// <summary>
+	/// 
+	/// </summary>
 	public class DeveloperConsoleBehaviour : MonoBehaviour
 	{
+		/// <summary>
+		/// 
+		/// </summary>
 		[SerializeField] protected List<ConsoleCommand> commands = new List<ConsoleCommand> ();
 
+		/// <summary>
+		/// 
+		/// </summary>
 		[Header ("UI")]
 		[SerializeField] protected GameObject uiCanvas = null;
+		
+		/// <summary>
+		/// 
+		/// </summary>
 		[SerializeField] protected TMP_InputField inputField = null;
+		
+		/// <summary>
+		/// 
+		/// </summary>
 		[SerializeField] protected Transform entriesParent = null;
+		
+		/// <summary>
+		/// 
+		/// </summary>
 		[SerializeField] [Range (20, 100)] protected int maxEntryCount = 20;
 
+		/// <summary>
+		/// 
+		/// </summary>
 		[Header ("Prefabs")]
 		[SerializeField] protected ConsoleEntry logPrefab = null;
+		
+		/// <summary>
+		/// 
+		/// </summary>
 		[SerializeField] protected ConsoleEntry warningPrefab = null;
+		
+		/// <summary>
+		/// 
+		/// </summary>
 		[SerializeField] protected ConsoleEntry errorPrefab = null;
+		
+		/// <summary>
+		/// 
+		/// </summary>
 		[SerializeField] protected ConsoleEntry commandPrefab = null;
+		
+		/// <summary>
+		/// 
+		/// </summary>
 		[SerializeField] protected ConsoleEntry failedCommandPrefab = null;
 
 
-
+		/// <summary>
+		/// 
+		/// </summary>
 		public static DeveloperConsoleBehaviour instance;
 
+		/// <summary>
+		/// 
+		/// </summary>
 		protected DeveloperConsole developerConsole;
+		
+		/// <summary>
+		/// 
+		/// </summary>
 		protected DeveloperConsole DeveloperConsole
 		{
 			get
@@ -38,6 +87,9 @@ namespace ScriptableFramework.DeveloperConsole
 			}
 		}
 
+		/// <summary>
+		/// 
+		/// </summary>
 		protected virtual void Awake ()
 		{
 			if (instance != null && instance != this)
@@ -53,21 +105,36 @@ namespace ScriptableFramework.DeveloperConsole
 			DontDestroyOnLoad (gameObject);
 		}
 
+		/// <summary>
+		/// 
+		/// </summary>
 		protected virtual void SortCommands ()
 		{
 			commands = commands.OrderBy (c => c.commandWord).ToList ();
 		}
 
+		/// <summary>
+		/// 
+		/// </summary>
 		protected virtual void OnEnable ()
 		{
 			Application.logMessageReceived += HandleLog;
 		}
 
+		/// <summary>
+		/// 
+		/// </summary>
 		protected virtual void OnDisable ()
 		{
 			Application.logMessageReceived -= HandleLog;
 		}
 
+		/// <summary>
+		/// 
+		/// </summary>
+		/// <param name="logString"></param>
+		/// <param name="stackTrace"></param>
+		/// <param name="type"></param>
 		protected virtual void HandleLog (string logString, string stackTrace, LogType type)
 		{
 			switch (type)
@@ -87,6 +154,11 @@ namespace ScriptableFramework.DeveloperConsole
 			}
 		}
 
+		/// <summary>
+		/// 
+		/// </summary>
+		/// <param name="prefab"></param>
+		/// <param name="entryText"></param>
 		protected virtual void InstantiateNewEntry (ConsoleEntry prefab, string entryText)
 		{
 			ConsoleEntry entry = Instantiate (prefab, entriesParent);
@@ -98,6 +170,10 @@ namespace ScriptableFramework.DeveloperConsole
 			if (entriesParent.childCount > maxEntryCount) StartCoroutine (ClearExcessChildren ());
 		}
 
+		/// <summary>
+		/// 
+		/// </summary>
+		/// <returns></returns>
 		protected virtual IEnumerator ClearExcessChildren ()
 		{
 			while (entriesParent.childCount > maxEntryCount)
@@ -107,6 +183,10 @@ namespace ScriptableFramework.DeveloperConsole
 			}
 		}
 
+		/// <summary>
+		/// 
+		/// </summary>
+		/// <param name="context"></param>
 		public virtual void Toggle (CallbackContext context)
 		{
 			if (!context.action.triggered) { return; }
@@ -122,6 +202,10 @@ namespace ScriptableFramework.DeveloperConsole
 			}
 		}
 
+		/// <summary>
+		/// 
+		/// </summary>
+		/// <param name="inputValue"></param>
 		public virtual void ProcessCommand (string inputValue)
 		{
 			inputField.text = string.Empty;
@@ -138,17 +222,27 @@ namespace ScriptableFramework.DeveloperConsole
 			}
 		}
 
+		/// <summary>
+		/// 
+		/// </summary>
+		/// <param name="newText"></param>
 		public virtual void SetInputFieldText (string newText)
 		{
 			inputField.text = newText;
 			inputField.caretPosition = inputField.text.Length;
 		}
 
+		/// <summary>
+		/// 
+		/// </summary>
 		public virtual void ClearConsoleEntries ()
 		{
 			entriesParent.DestroyChildren ();
 		}
 
+		/// <summary>
+		/// 
+		/// </summary>
 		public virtual void ShowCommandHelp ()
 		{
 			for (int i = commands.Count - 1; i >= 0; i--)
@@ -159,6 +253,11 @@ namespace ScriptableFramework.DeveloperConsole
 			}
 		}
 
+		/// <summary>
+		/// 
+		/// </summary>
+		/// <param name="value"></param>
+		/// <returns></returns>
 		protected virtual string MakeBold (string value)
 		{
 			return "<b>" + value + "</b>";
