@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c6faaa80f0338a4984cbee296dc63d0, type: 3}
-  m_Name: Log Command (log)
+  m_Script: {fileID: 11500000, guid: 11e0a000913e22745a062f8f1230e389, type: 3}
+  m_Name: Help Command (help)
   m_EditorClassIdentifier: 
-  commandWord: log
-  description: '{string[]} > Calls Debug.Log () on all arguments as a single string.'
+  commandWord: help
+  description: '{} > Display all command words and their descriptions.'

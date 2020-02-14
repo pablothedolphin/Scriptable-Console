@@ -1084,6 +1084,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 7495ca3db523bd842b3873c05d523805, type: 2}
   - {fileID: 11400000, guid: fa7e1bfa72c20484f807d664d6be9e86, type: 2}
   - {fileID: 11400000, guid: e2edf3ff5bb42e148b3aeb8af493a8d1, type: 2}
+  - {fileID: 11400000, guid: 60a9f8e66157da84d8bc694b0743f53a, type: 2}
   uiCanvas: {fileID: 1005529010}
   inputField: {fileID: 1669160770}
   entriesParent: {fileID: 8900114365977628302}

@@ -17,7 +17,7 @@ namespace ScriptableFramework.DeveloperConsole
 
 		public virtual void SetText (string commandText)
 		{
-			entryText.text = commandText;
+			if (entryText != null) entryText.text = commandText;
 		}
 	}
 }

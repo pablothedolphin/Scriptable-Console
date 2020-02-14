@@ -95,9 +95,15 @@ namespace ScriptableFramework.DeveloperConsole
 
 			entry.transform.SetSiblingIndex (0);
 
+			if (entriesParent.childCount > maxEntryCount) StartCoroutine (ClearExcessChildren ());
+		}
+
+		protected virtual IEnumerator ClearExcessChildren ()
+		{
 			while (entriesParent.childCount > maxEntryCount)
 			{
-				Destroy (entriesParent.GetChild (entriesParent.childCount - 1));
+				Destroy (entriesParent.GetChild (entriesParent.childCount - 1).gameObject);
+				yield return null;
 			}
 		}
 
@@ -141,6 +147,21 @@ namespace ScriptableFramework.DeveloperConsole
 		public virtual void ClearConsoleEntries ()
 		{
 			entriesParent.DestroyChildren ();
+		}
+
+		public virtual void ShowCommandHelp ()
+		{
+			for (int i = commands.Count - 1; i >= 0; i--)
+			{
+				string helpText = string.Format ("{0}: {1}", MakeBold (commands[i].commandWord), commands[i].description);
+
+				InstantiateNewEntry (logPrefab, helpText);
+			}
+		}
+
+		protected virtual string MakeBold (string value)
+		{
+			return "<b>" + value + "</b>";
 		}
 	}
 }
