@@ -1,6 +1,12 @@
-# Scriptable Framework
+# Scriptable Console
 
 In this repository you will find the source code, assets and project settings of the Scriptable Console for Unity app development (Unity 2019.3.0 or newer recommended) along with a DocFX project containing documentation assets and articles.
+
+---
+
+## NOTICE
+
+> This package as a dependancy on [Scriptable Framework](https://github.com/pablothedolphin/Scriptable-Framework) to allow for modular invokation of methods in your application.
 
 ---
 
