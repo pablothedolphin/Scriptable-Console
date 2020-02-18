@@ -1,0 +1,383 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/Jak.Hussain/Documents/Git/Open Source/Scriptable Console/docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ScriptableFramework.DeveloperConsole.AppEventCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ScriptableFramework.DeveloperConsole.AppEventCommand.html",
+          "hash": "FAi7ngckAki5fVoL2dZRYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ScriptableFramework.DeveloperConsole.BoolEventCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ScriptableFramework.DeveloperConsole.BoolEventCommand.html",
+          "hash": "cY111LHHlTTHiVXm/rFI/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ScriptableFramework.DeveloperConsole.BoundsEventCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ScriptableFramework.DeveloperConsole.BoundsEventCommand.html",
+          "hash": "bGJ4cXwdUAf6CjJR1sYJbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ScriptableFramework.DeveloperConsole.ClearCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ScriptableFramework.DeveloperConsole.ClearCommand.html",
+          "hash": "KmG/1fcsr9QqqWpiGgA6sg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ScriptableFramework.DeveloperConsole.CommandArguments.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ScriptableFramework.DeveloperConsole.CommandArguments.html",
+          "hash": "VJA7Rtngk9B4wvmnxJZjJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ScriptableFramework.DeveloperConsole.ConsoleCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ScriptableFramework.DeveloperConsole.ConsoleCommand.html",
+          "hash": "urWtmk1zJwLTQzcMNyTzIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ScriptableFramework.DeveloperConsole.ConsoleCommandEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ScriptableFramework.DeveloperConsole.ConsoleCommandEntry.html",
+          "hash": "xdxePC4V2ZP6njoUk0vRTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ScriptableFramework.DeveloperConsole.ConsoleEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ScriptableFramework.DeveloperConsole.ConsoleEntry.html",
+          "hash": "fyv4Wpzs7bKSKzL5BxpIuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ScriptableFramework.DeveloperConsole.DeveloperConsole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ScriptableFramework.DeveloperConsole.DeveloperConsole.html",
+          "hash": "jLaXjsEFCt8vWY9+LmWWbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.html",
+          "hash": "zzyyEJwwmqs1z/mQ/SFUKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ScriptableFramework.DeveloperConsole.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ScriptableFramework.DeveloperConsole.Extensions.html",
+          "hash": "05BM0HfLcUFeeNSs/wlwAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ScriptableFramework.DeveloperConsole.FloatEventCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ScriptableFramework.DeveloperConsole.FloatEventCommand.html",
+          "hash": "jF8tiX3tMq/2vhqPhtwrOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ScriptableFramework.DeveloperConsole.GravityCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ScriptableFramework.DeveloperConsole.GravityCommand.html",
+          "hash": "WbWZEAgnf/mZhzkzy5b0mA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ScriptableFramework.DeveloperConsole.HelpCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ScriptableFramework.DeveloperConsole.HelpCommand.html",
+          "hash": "fzpzVFyT961VTOZ4NV+6mw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ScriptableFramework.DeveloperConsole.IConsoleCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ScriptableFramework.DeveloperConsole.IConsoleCommand.html",
+          "hash": "gTF2HWyqp1xKOVPFmlodYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ScriptableFramework.DeveloperConsole.IntEventCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ScriptableFramework.DeveloperConsole.IntEventCommand.html",
+          "hash": "oJCudOTWAxw9dVf7hKIuxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ScriptableFramework.DeveloperConsole.LoadSceneCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ScriptableFramework.DeveloperConsole.LoadSceneCommand.html",
+          "hash": "xdVApD2/H2EjC4C06I51+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ScriptableFramework.DeveloperConsole.LogCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ScriptableFramework.DeveloperConsole.LogCommand.html",
+          "hash": "MHDkfdZQHLFEw8CYjd0V/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ScriptableFramework.DeveloperConsole.StateMachineCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ScriptableFramework.DeveloperConsole.StateMachineCommand.html",
+          "hash": "AdHnCy/IdGkRmWaOFU+W6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ScriptableFramework.DeveloperConsole.StringEventCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ScriptableFramework.DeveloperConsole.StringEventCommand.html",
+          "hash": "uC1IFcfncRDiiUZQwZDLrA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ScriptableFramework.DeveloperConsole.TimeScaleCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ScriptableFramework.DeveloperConsole.TimeScaleCommand.html",
+          "hash": "77KCYovIfGl5pvpUXwOkeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ScriptableFramework.DeveloperConsole.Vector3EventCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ScriptableFramework.DeveloperConsole.Vector3EventCommand.html",
+          "hash": "fs2w4O073GL2lEWMED8BYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ScriptableFramework.DeveloperConsole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ScriptableFramework.DeveloperConsole.html",
+          "hash": "T0AAyp5+DOEGamD656MOKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "7SpRKbWe681Y2klQ3Xq53A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/howToInstall.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/howToInstall.html",
+          "hash": "yBlhznO2e1ZCy/dWZ8xMbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/introduction.html",
+          "hash": "FRdEFQnU0X2g/8c76Qhq0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/license.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/license.html",
+          "hash": "LXuk2wZIq+4zUieWD6N97g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "LuKm+1B4GkHeVv8LjGCXzw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

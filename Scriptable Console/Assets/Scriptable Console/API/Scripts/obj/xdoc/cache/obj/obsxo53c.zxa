@@ -1,0 +1,5143 @@
+id: cs.temp.dll
+language: CSharp
+name:
+  Default: cs.temp.dll
+qualifiedName:
+  Default: cs.temp.dll
+type: Assembly
+modifiers: {}
+items:
+- id: ScriptableFramework.DeveloperConsole
+  commentId: N:ScriptableFramework.DeveloperConsole
+  language: CSharp
+  name:
+    CSharp: ScriptableFramework.DeveloperConsole
+    VB: ScriptableFramework.DeveloperConsole
+  nameWithType:
+    CSharp: ScriptableFramework.DeveloperConsole
+    VB: ScriptableFramework.DeveloperConsole
+  qualifiedName:
+    CSharp: ScriptableFramework.DeveloperConsole
+    VB: ScriptableFramework.DeveloperConsole
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+  modifiers: {}
+  items:
+  - id: ScriptableFramework.DeveloperConsole.CommandArguments
+    commentId: T:ScriptableFramework.DeveloperConsole.CommandArguments
+    language: CSharp
+    name:
+      CSharp: CommandArguments
+      VB: CommandArguments
+    nameWithType:
+      CSharp: CommandArguments
+      VB: CommandArguments
+    qualifiedName:
+      CSharp: ScriptableFramework.DeveloperConsole.CommandArguments
+      VB: ScriptableFramework.DeveloperConsole.CommandArguments
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: ScriptableFramework.DeveloperConsole
+    source:
+      id: CommandArguments
+      path: ''
+      startLine: 10
+    summary: "\n\n"
+    example: []
+    syntax:
+      content:
+        CSharp: public static class CommandArguments
+        VB: Public Module CommandArguments
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - static
+      - class
+      VB:
+      - Public
+      - Module
+    items:
+    - id: ScriptableFramework.DeveloperConsole.CommandArguments.TryParse(System.String,Vector2@)
+      commentId: M:ScriptableFramework.DeveloperConsole.CommandArguments.TryParse(System.String,Vector2@)
+      language: CSharp
+      name:
+        CSharp: TryParse(String, out Vector2)
+        VB: TryParse(String, ByRef Vector2)
+      nameWithType:
+        CSharp: CommandArguments.TryParse(String, out Vector2)
+        VB: CommandArguments.TryParse(String, ByRef Vector2)
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.CommandArguments.TryParse(System.String, out Vector2)
+        VB: ScriptableFramework.DeveloperConsole.CommandArguments.TryParse(System.String, ByRef Vector2)
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: TryParse
+        path: ''
+        startLine: 18
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public static bool TryParse(string argument, out Vector2 value)
+          VB: Public Shared Function TryParse(argument As String, ByRef value As Vector2) As Boolean
+        parameters:
+        - id: argument
+          type: System.String
+          description: ''
+        - id: value
+          type: Global.Vector2
+          description: ''
+        return:
+          type: System.Boolean
+          description: ''
+      overload: ScriptableFramework.DeveloperConsole.CommandArguments.TryParse*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - id: ScriptableFramework.DeveloperConsole.CommandArguments.TryParse(System.String,Vector3@)
+      commentId: M:ScriptableFramework.DeveloperConsole.CommandArguments.TryParse(System.String,Vector3@)
+      language: CSharp
+      name:
+        CSharp: TryParse(String, out Vector3)
+        VB: TryParse(String, ByRef Vector3)
+      nameWithType:
+        CSharp: CommandArguments.TryParse(String, out Vector3)
+        VB: CommandArguments.TryParse(String, ByRef Vector3)
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.CommandArguments.TryParse(System.String, out Vector3)
+        VB: ScriptableFramework.DeveloperConsole.CommandArguments.TryParse(System.String, ByRef Vector3)
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: TryParse
+        path: ''
+        startLine: 40
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public static bool TryParse(string argument, out Vector3 value)
+          VB: Public Shared Function TryParse(argument As String, ByRef value As Vector3) As Boolean
+        parameters:
+        - id: argument
+          type: System.String
+          description: ''
+        - id: value
+          type: Global.Vector3
+          description: ''
+        return:
+          type: System.Boolean
+          description: ''
+      overload: ScriptableFramework.DeveloperConsole.CommandArguments.TryParse*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - id: ScriptableFramework.DeveloperConsole.CommandArguments.TryParse(System.String,Bounds@)
+      commentId: M:ScriptableFramework.DeveloperConsole.CommandArguments.TryParse(System.String,Bounds@)
+      language: CSharp
+      name:
+        CSharp: TryParse(String, out Bounds)
+        VB: TryParse(String, ByRef Bounds)
+      nameWithType:
+        CSharp: CommandArguments.TryParse(String, out Bounds)
+        VB: CommandArguments.TryParse(String, ByRef Bounds)
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.CommandArguments.TryParse(System.String, out Bounds)
+        VB: ScriptableFramework.DeveloperConsole.CommandArguments.TryParse(System.String, ByRef Bounds)
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: TryParse
+        path: ''
+        startLine: 63
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public static bool TryParse(string argument, out Bounds value)
+          VB: Public Shared Function TryParse(argument As String, ByRef value As Bounds) As Boolean
+        parameters:
+        - id: argument
+          type: System.String
+          description: ''
+        - id: value
+          type: Global.Bounds
+          description: ''
+        return:
+          type: System.Boolean
+          description: ''
+      overload: ScriptableFramework.DeveloperConsole.CommandArguments.TryParse*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+  - id: ScriptableFramework.DeveloperConsole.DeveloperConsole
+    commentId: T:ScriptableFramework.DeveloperConsole.DeveloperConsole
+    language: CSharp
+    name:
+      CSharp: DeveloperConsole
+      VB: DeveloperConsole
+    nameWithType:
+      CSharp: DeveloperConsole
+      VB: DeveloperConsole
+    qualifiedName:
+      CSharp: ScriptableFramework.DeveloperConsole.DeveloperConsole
+      VB: ScriptableFramework.DeveloperConsole.DeveloperConsole
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: ScriptableFramework.DeveloperConsole
+    source:
+      id: DeveloperConsole
+      path: ''
+      startLine: 131
+    summary: "\n\n"
+    example: []
+    syntax:
+      content:
+        CSharp: public class DeveloperConsole
+        VB: Public Class DeveloperConsole
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: ScriptableFramework.DeveloperConsole.DeveloperConsole.commands
+      commentId: F:ScriptableFramework.DeveloperConsole.DeveloperConsole.commands
+      language: CSharp
+      name:
+        CSharp: commands
+        VB: commands
+      nameWithType:
+        CSharp: DeveloperConsole.commands
+        VB: DeveloperConsole.commands
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.DeveloperConsole.commands
+        VB: ScriptableFramework.DeveloperConsole.DeveloperConsole.commands
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: commands
+        path: ''
+        startLine: 136
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected readonly IEnumerable<IConsoleCommand> commands
+          VB: Protected ReadOnly commands As IEnumerable(Of IConsoleCommand)
+        return:
+          type: System.Collections.Generic.IEnumerable{ScriptableFramework.DeveloperConsole.IConsoleCommand}
+      modifiers:
+        CSharp:
+        - protected
+        - readonly
+        VB:
+        - Protected
+        - ReadOnly
+    - id: ScriptableFramework.DeveloperConsole.DeveloperConsole.#ctor(System.Collections.Generic.IEnumerable{ScriptableFramework.DeveloperConsole.IConsoleCommand})
+      commentId: M:ScriptableFramework.DeveloperConsole.DeveloperConsole.#ctor(System.Collections.Generic.IEnumerable{ScriptableFramework.DeveloperConsole.IConsoleCommand})
+      language: CSharp
+      name:
+        CSharp: DeveloperConsole(IEnumerable<IConsoleCommand>)
+        VB: DeveloperConsole(IEnumerable(Of IConsoleCommand))
+      nameWithType:
+        CSharp: DeveloperConsole.DeveloperConsole(IEnumerable<IConsoleCommand>)
+        VB: DeveloperConsole.DeveloperConsole(IEnumerable(Of IConsoleCommand))
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.DeveloperConsole.DeveloperConsole(System.Collections.Generic.IEnumerable<ScriptableFramework.DeveloperConsole.IConsoleCommand>)
+        VB: ScriptableFramework.DeveloperConsole.DeveloperConsole.DeveloperConsole(System.Collections.Generic.IEnumerable(Of ScriptableFramework.DeveloperConsole.IConsoleCommand))
+      type: Constructor
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: .ctor
+        path: ''
+        startLine: 142
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public DeveloperConsole(IEnumerable<IConsoleCommand> commands)
+          VB: Public Sub New(commands As IEnumerable(Of IConsoleCommand))
+        parameters:
+        - id: commands
+          type: System.Collections.Generic.IEnumerable{ScriptableFramework.DeveloperConsole.IConsoleCommand}
+          description: ''
+      overload: ScriptableFramework.DeveloperConsole.DeveloperConsole.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: ScriptableFramework.DeveloperConsole.DeveloperConsole.ProcessCommand(System.String)
+      commentId: M:ScriptableFramework.DeveloperConsole.DeveloperConsole.ProcessCommand(System.String)
+      language: CSharp
+      name:
+        CSharp: ProcessCommand(String)
+        VB: ProcessCommand(String)
+      nameWithType:
+        CSharp: DeveloperConsole.ProcessCommand(String)
+        VB: DeveloperConsole.ProcessCommand(String)
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.DeveloperConsole.ProcessCommand(System.String)
+        VB: ScriptableFramework.DeveloperConsole.DeveloperConsole.ProcessCommand(System.String)
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: ProcessCommand
+        path: ''
+        startLine: 152
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public bool ProcessCommand(string inputValue)
+          VB: Public Function ProcessCommand(inputValue As String) As Boolean
+        parameters:
+        - id: inputValue
+          type: System.String
+          description: ''
+        return:
+          type: System.Boolean
+          description: ''
+      overload: ScriptableFramework.DeveloperConsole.DeveloperConsole.ProcessCommand*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: ScriptableFramework.DeveloperConsole.DeveloperConsole.ProcessCommand(System.String,System.String[])
+      commentId: M:ScriptableFramework.DeveloperConsole.DeveloperConsole.ProcessCommand(System.String,System.String[])
+      language: CSharp
+      name:
+        CSharp: ProcessCommand(String, String[])
+        VB: ProcessCommand(String, String())
+      nameWithType:
+        CSharp: DeveloperConsole.ProcessCommand(String, String[])
+        VB: DeveloperConsole.ProcessCommand(String, String())
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.DeveloperConsole.ProcessCommand(System.String, System.String[])
+        VB: ScriptableFramework.DeveloperConsole.DeveloperConsole.ProcessCommand(System.String, System.String())
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: ProcessCommand
+        path: ''
+        startLine: 168
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public bool ProcessCommand(string commandInput, string[] args)
+          VB: Public Function ProcessCommand(commandInput As String, args As String()) As Boolean
+        parameters:
+        - id: commandInput
+          type: System.String
+          description: ''
+        - id: args
+          type: System.String[]
+          description: ''
+        return:
+          type: System.Boolean
+          description: ''
+      overload: ScriptableFramework.DeveloperConsole.DeveloperConsole.ProcessCommand*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour
+    commentId: T:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour
+    language: CSharp
+    name:
+      CSharp: DeveloperConsoleBehaviour
+      VB: DeveloperConsoleBehaviour
+    nameWithType:
+      CSharp: DeveloperConsoleBehaviour
+      VB: DeveloperConsoleBehaviour
+    qualifiedName:
+      CSharp: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour
+      VB: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: ScriptableFramework.DeveloperConsole
+    source:
+      id: DeveloperConsoleBehaviour
+      path: ''
+      startLine: 196
+    summary: "\n\n"
+    example: []
+    syntax:
+      content:
+        CSharp: 'public class DeveloperConsoleBehaviour : MonoBehaviour'
+        VB: >-
+          Public Class DeveloperConsoleBehaviour
+
+              Inherits MonoBehaviour
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.commands
+      commentId: F:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.commands
+      language: CSharp
+      name:
+        CSharp: commands
+        VB: commands
+      nameWithType:
+        CSharp: DeveloperConsoleBehaviour.commands
+        VB: DeveloperConsoleBehaviour.commands
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.commands
+        VB: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.commands
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: commands
+        path: ''
+        startLine: 201
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected List<ConsoleCommand> commands
+          VB: Protected commands As List(Of ConsoleCommand)
+        return:
+          type: System.Collections.Generic.List{ScriptableFramework.DeveloperConsole.ConsoleCommand}
+      modifiers:
+        CSharp:
+        - protected
+        VB:
+        - Protected
+    - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.uiCanvas
+      commentId: F:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.uiCanvas
+      language: CSharp
+      name:
+        CSharp: uiCanvas
+        VB: uiCanvas
+      nameWithType:
+        CSharp: DeveloperConsoleBehaviour.uiCanvas
+        VB: DeveloperConsoleBehaviour.uiCanvas
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.uiCanvas
+        VB: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.uiCanvas
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: uiCanvas
+        path: ''
+        startLine: 207
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected GameObject uiCanvas
+          VB: Protected uiCanvas As GameObject
+        return:
+          type: Global.GameObject
+      modifiers:
+        CSharp:
+        - protected
+        VB:
+        - Protected
+    - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.inputField
+      commentId: F:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.inputField
+      language: CSharp
+      name:
+        CSharp: inputField
+        VB: inputField
+      nameWithType:
+        CSharp: DeveloperConsoleBehaviour.inputField
+        VB: DeveloperConsoleBehaviour.inputField
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.inputField
+        VB: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.inputField
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: inputField
+        path: ''
+        startLine: 212
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected TMP_InputField inputField
+          VB: Protected inputField As TMP_InputField
+        return:
+          type: Global.TMP_InputField
+      modifiers:
+        CSharp:
+        - protected
+        VB:
+        - Protected
+    - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.entriesParent
+      commentId: F:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.entriesParent
+      language: CSharp
+      name:
+        CSharp: entriesParent
+        VB: entriesParent
+      nameWithType:
+        CSharp: DeveloperConsoleBehaviour.entriesParent
+        VB: DeveloperConsoleBehaviour.entriesParent
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.entriesParent
+        VB: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.entriesParent
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: entriesParent
+        path: ''
+        startLine: 217
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected Transform entriesParent
+          VB: Protected entriesParent As Transform
+        return:
+          type: Global.Transform
+      modifiers:
+        CSharp:
+        - protected
+        VB:
+        - Protected
+    - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.maxEntryCount
+      commentId: F:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.maxEntryCount
+      language: CSharp
+      name:
+        CSharp: maxEntryCount
+        VB: maxEntryCount
+      nameWithType:
+        CSharp: DeveloperConsoleBehaviour.maxEntryCount
+        VB: DeveloperConsoleBehaviour.maxEntryCount
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.maxEntryCount
+        VB: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.maxEntryCount
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: maxEntryCount
+        path: ''
+        startLine: 222
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected int maxEntryCount
+          VB: Protected maxEntryCount As Integer
+        return:
+          type: System.Int32
+      modifiers:
+        CSharp:
+        - protected
+        VB:
+        - Protected
+    - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.logPrefab
+      commentId: F:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.logPrefab
+      language: CSharp
+      name:
+        CSharp: logPrefab
+        VB: logPrefab
+      nameWithType:
+        CSharp: DeveloperConsoleBehaviour.logPrefab
+        VB: DeveloperConsoleBehaviour.logPrefab
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.logPrefab
+        VB: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.logPrefab
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: logPrefab
+        path: ''
+        startLine: 228
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected ConsoleEntry logPrefab
+          VB: Protected logPrefab As ConsoleEntry
+        return:
+          type: ScriptableFramework.DeveloperConsole.ConsoleEntry
+      modifiers:
+        CSharp:
+        - protected
+        VB:
+        - Protected
+    - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.warningPrefab
+      commentId: F:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.warningPrefab
+      language: CSharp
+      name:
+        CSharp: warningPrefab
+        VB: warningPrefab
+      nameWithType:
+        CSharp: DeveloperConsoleBehaviour.warningPrefab
+        VB: DeveloperConsoleBehaviour.warningPrefab
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.warningPrefab
+        VB: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.warningPrefab
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: warningPrefab
+        path: ''
+        startLine: 233
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected ConsoleEntry warningPrefab
+          VB: Protected warningPrefab As ConsoleEntry
+        return:
+          type: ScriptableFramework.DeveloperConsole.ConsoleEntry
+      modifiers:
+        CSharp:
+        - protected
+        VB:
+        - Protected
+    - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.errorPrefab
+      commentId: F:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.errorPrefab
+      language: CSharp
+      name:
+        CSharp: errorPrefab
+        VB: errorPrefab
+      nameWithType:
+        CSharp: DeveloperConsoleBehaviour.errorPrefab
+        VB: DeveloperConsoleBehaviour.errorPrefab
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.errorPrefab
+        VB: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.errorPrefab
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: errorPrefab
+        path: ''
+        startLine: 238
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected ConsoleEntry errorPrefab
+          VB: Protected errorPrefab As ConsoleEntry
+        return:
+          type: ScriptableFramework.DeveloperConsole.ConsoleEntry
+      modifiers:
+        CSharp:
+        - protected
+        VB:
+        - Protected
+    - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.commandPrefab
+      commentId: F:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.commandPrefab
+      language: CSharp
+      name:
+        CSharp: commandPrefab
+        VB: commandPrefab
+      nameWithType:
+        CSharp: DeveloperConsoleBehaviour.commandPrefab
+        VB: DeveloperConsoleBehaviour.commandPrefab
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.commandPrefab
+        VB: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.commandPrefab
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: commandPrefab
+        path: ''
+        startLine: 243
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected ConsoleEntry commandPrefab
+          VB: Protected commandPrefab As ConsoleEntry
+        return:
+          type: ScriptableFramework.DeveloperConsole.ConsoleEntry
+      modifiers:
+        CSharp:
+        - protected
+        VB:
+        - Protected
+    - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.failedCommandPrefab
+      commentId: F:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.failedCommandPrefab
+      language: CSharp
+      name:
+        CSharp: failedCommandPrefab
+        VB: failedCommandPrefab
+      nameWithType:
+        CSharp: DeveloperConsoleBehaviour.failedCommandPrefab
+        VB: DeveloperConsoleBehaviour.failedCommandPrefab
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.failedCommandPrefab
+        VB: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.failedCommandPrefab
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: failedCommandPrefab
+        path: ''
+        startLine: 248
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected ConsoleEntry failedCommandPrefab
+          VB: Protected failedCommandPrefab As ConsoleEntry
+        return:
+          type: ScriptableFramework.DeveloperConsole.ConsoleEntry
+      modifiers:
+        CSharp:
+        - protected
+        VB:
+        - Protected
+    - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.instance
+      commentId: F:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.instance
+      language: CSharp
+      name:
+        CSharp: instance
+        VB: instance
+      nameWithType:
+        CSharp: DeveloperConsoleBehaviour.instance
+        VB: DeveloperConsoleBehaviour.instance
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.instance
+        VB: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.instance
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: instance
+        path: ''
+        startLine: 254
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public static DeveloperConsoleBehaviour instance
+          VB: Public Shared instance As DeveloperConsoleBehaviour
+        return:
+          type: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.developerConsole
+      commentId: F:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.developerConsole
+      language: CSharp
+      name:
+        CSharp: developerConsole
+        VB: developerConsole
+      nameWithType:
+        CSharp: DeveloperConsoleBehaviour.developerConsole
+        VB: DeveloperConsoleBehaviour.developerConsole
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.developerConsole
+        VB: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.developerConsole
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: developerConsole
+        path: ''
+        startLine: 259
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected DeveloperConsole developerConsole
+          VB: Protected developerConsole As DeveloperConsole
+        return:
+          type: ScriptableFramework.DeveloperConsole.DeveloperConsole
+      modifiers:
+        CSharp:
+        - protected
+        VB:
+        - Protected
+    - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.DeveloperConsole
+      commentId: P:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.DeveloperConsole
+      language: CSharp
+      name:
+        CSharp: DeveloperConsole
+        VB: DeveloperConsole
+      nameWithType:
+        CSharp: DeveloperConsoleBehaviour.DeveloperConsole
+        VB: DeveloperConsoleBehaviour.DeveloperConsole
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.DeveloperConsole
+        VB: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.DeveloperConsole
+      type: Property
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: DeveloperConsole
+        path: ''
+        startLine: 264
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected DeveloperConsole DeveloperConsole { get; }
+          VB: Protected ReadOnly Property DeveloperConsole As DeveloperConsole
+        parameters: []
+        return:
+          type: ScriptableFramework.DeveloperConsole.DeveloperConsole
+      overload: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.DeveloperConsole*
+      modifiers:
+        CSharp:
+        - protected
+        - get
+        VB:
+        - Protected
+        - ReadOnly
+    - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.Awake
+      commentId: M:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.Awake
+      language: CSharp
+      name:
+        CSharp: Awake()
+        VB: Awake()
+      nameWithType:
+        CSharp: DeveloperConsoleBehaviour.Awake()
+        VB: DeveloperConsoleBehaviour.Awake()
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.Awake()
+        VB: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.Awake()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: Awake
+        path: ''
+        startLine: 276
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected virtual void Awake()
+          VB: Protected Overridable Sub Awake
+      overload: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.Awake*
+      modifiers:
+        CSharp:
+        - protected
+        - virtual
+        VB:
+        - Protected
+        - Overridable
+    - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.SortCommands
+      commentId: M:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.SortCommands
+      language: CSharp
+      name:
+        CSharp: SortCommands()
+        VB: SortCommands()
+      nameWithType:
+        CSharp: DeveloperConsoleBehaviour.SortCommands()
+        VB: DeveloperConsoleBehaviour.SortCommands()
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.SortCommands()
+        VB: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.SortCommands()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: SortCommands
+        path: ''
+        startLine: 294
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected virtual void SortCommands()
+          VB: Protected Overridable Sub SortCommands
+      overload: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.SortCommands*
+      modifiers:
+        CSharp:
+        - protected
+        - virtual
+        VB:
+        - Protected
+        - Overridable
+    - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.OnEnable
+      commentId: M:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.OnEnable
+      language: CSharp
+      name:
+        CSharp: OnEnable()
+        VB: OnEnable()
+      nameWithType:
+        CSharp: DeveloperConsoleBehaviour.OnEnable()
+        VB: DeveloperConsoleBehaviour.OnEnable()
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.OnEnable()
+        VB: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.OnEnable()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: OnEnable
+        path: ''
+        startLine: 302
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected virtual void OnEnable()
+          VB: Protected Overridable Sub OnEnable
+      overload: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.OnEnable*
+      modifiers:
+        CSharp:
+        - protected
+        - virtual
+        VB:
+        - Protected
+        - Overridable
+    - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.OnDisable
+      commentId: M:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.OnDisable
+      language: CSharp
+      name:
+        CSharp: OnDisable()
+        VB: OnDisable()
+      nameWithType:
+        CSharp: DeveloperConsoleBehaviour.OnDisable()
+        VB: DeveloperConsoleBehaviour.OnDisable()
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.OnDisable()
+        VB: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.OnDisable()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: OnDisable
+        path: ''
+        startLine: 310
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected virtual void OnDisable()
+          VB: Protected Overridable Sub OnDisable
+      overload: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.OnDisable*
+      modifiers:
+        CSharp:
+        - protected
+        - virtual
+        VB:
+        - Protected
+        - Overridable
+    - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.HandleLog(System.String,System.String,LogType)
+      commentId: M:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.HandleLog(System.String,System.String,LogType)
+      language: CSharp
+      name:
+        CSharp: HandleLog(String, String, LogType)
+        VB: HandleLog(String, String, LogType)
+      nameWithType:
+        CSharp: DeveloperConsoleBehaviour.HandleLog(String, String, LogType)
+        VB: DeveloperConsoleBehaviour.HandleLog(String, String, LogType)
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.HandleLog(System.String, System.String, LogType)
+        VB: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.HandleLog(System.String, System.String, LogType)
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: HandleLog
+        path: ''
+        startLine: 321
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected virtual void HandleLog(string logString, string stackTrace, LogType type)
+          VB: Protected Overridable Sub HandleLog(logString As String, stackTrace As String, type As LogType)
+        parameters:
+        - id: logString
+          type: System.String
+          description: ''
+        - id: stackTrace
+          type: System.String
+          description: ''
+        - id: type
+          type: Global.LogType
+          description: ''
+      overload: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.HandleLog*
+      modifiers:
+        CSharp:
+        - protected
+        - virtual
+        VB:
+        - Protected
+        - Overridable
+    - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.InstantiateNewEntry(ScriptableFramework.DeveloperConsole.ConsoleEntry,System.String)
+      commentId: M:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.InstantiateNewEntry(ScriptableFramework.DeveloperConsole.ConsoleEntry,System.String)
+      language: CSharp
+      name:
+        CSharp: InstantiateNewEntry(ConsoleEntry, String)
+        VB: InstantiateNewEntry(ConsoleEntry, String)
+      nameWithType:
+        CSharp: DeveloperConsoleBehaviour.InstantiateNewEntry(ConsoleEntry, String)
+        VB: DeveloperConsoleBehaviour.InstantiateNewEntry(ConsoleEntry, String)
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.InstantiateNewEntry(ScriptableFramework.DeveloperConsole.ConsoleEntry, System.String)
+        VB: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.InstantiateNewEntry(ScriptableFramework.DeveloperConsole.ConsoleEntry, System.String)
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: InstantiateNewEntry
+        path: ''
+        startLine: 345
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected virtual void InstantiateNewEntry(ConsoleEntry prefab, string entryText)
+          VB: Protected Overridable Sub InstantiateNewEntry(prefab As ConsoleEntry, entryText As String)
+        parameters:
+        - id: prefab
+          type: ScriptableFramework.DeveloperConsole.ConsoleEntry
+          description: ''
+        - id: entryText
+          type: System.String
+          description: ''
+      overload: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.InstantiateNewEntry*
+      modifiers:
+        CSharp:
+        - protected
+        - virtual
+        VB:
+        - Protected
+        - Overridable
+    - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ClearExcessChildren
+      commentId: M:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ClearExcessChildren
+      language: CSharp
+      name:
+        CSharp: ClearExcessChildren()
+        VB: ClearExcessChildren()
+      nameWithType:
+        CSharp: DeveloperConsoleBehaviour.ClearExcessChildren()
+        VB: DeveloperConsoleBehaviour.ClearExcessChildren()
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ClearExcessChildren()
+        VB: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ClearExcessChildren()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: ClearExcessChildren
+        path: ''
+        startLine: 360
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected virtual IEnumerator ClearExcessChildren()
+          VB: Protected Overridable Function ClearExcessChildren As IEnumerator
+        return:
+          type: System.Collections.IEnumerator
+          description: ''
+      overload: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ClearExcessChildren*
+      modifiers:
+        CSharp:
+        - protected
+        - virtual
+        VB:
+        - Protected
+        - Overridable
+    - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.Toggle(CallbackContext)
+      commentId: M:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.Toggle(CallbackContext)
+      language: CSharp
+      name:
+        CSharp: Toggle(CallbackContext)
+        VB: Toggle(CallbackContext)
+      nameWithType:
+        CSharp: DeveloperConsoleBehaviour.Toggle(CallbackContext)
+        VB: DeveloperConsoleBehaviour.Toggle(CallbackContext)
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.Toggle(CallbackContext)
+        VB: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.Toggle(CallbackContext)
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: Toggle
+        path: ''
+        startLine: 373
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public virtual void Toggle(CallbackContext context)
+          VB: Public Overridable Sub Toggle(context As CallbackContext)
+        parameters:
+        - id: context
+          type: Global.CallbackContext
+          description: ''
+      overload: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.Toggle*
+      modifiers:
+        CSharp:
+        - public
+        - virtual
+        VB:
+        - Public
+        - Overridable
+    - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ProcessCommand(System.String)
+      commentId: M:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ProcessCommand(System.String)
+      language: CSharp
+      name:
+        CSharp: ProcessCommand(String)
+        VB: ProcessCommand(String)
+      nameWithType:
+        CSharp: DeveloperConsoleBehaviour.ProcessCommand(String)
+        VB: DeveloperConsoleBehaviour.ProcessCommand(String)
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ProcessCommand(System.String)
+        VB: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ProcessCommand(System.String)
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: ProcessCommand
+        path: ''
+        startLine: 392
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public virtual void ProcessCommand(string inputValue)
+          VB: Public Overridable Sub ProcessCommand(inputValue As String)
+        parameters:
+        - id: inputValue
+          type: System.String
+          description: ''
+      overload: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ProcessCommand*
+      modifiers:
+        CSharp:
+        - public
+        - virtual
+        VB:
+        - Public
+        - Overridable
+    - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.SetInputFieldText(System.String)
+      commentId: M:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.SetInputFieldText(System.String)
+      language: CSharp
+      name:
+        CSharp: SetInputFieldText(String)
+        VB: SetInputFieldText(String)
+      nameWithType:
+        CSharp: DeveloperConsoleBehaviour.SetInputFieldText(String)
+        VB: DeveloperConsoleBehaviour.SetInputFieldText(String)
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.SetInputFieldText(System.String)
+        VB: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.SetInputFieldText(System.String)
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: SetInputFieldText
+        path: ''
+        startLine: 412
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public virtual void SetInputFieldText(string newText)
+          VB: Public Overridable Sub SetInputFieldText(newText As String)
+        parameters:
+        - id: newText
+          type: System.String
+          description: ''
+      overload: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.SetInputFieldText*
+      modifiers:
+        CSharp:
+        - public
+        - virtual
+        VB:
+        - Public
+        - Overridable
+    - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ClearConsoleEntries
+      commentId: M:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ClearConsoleEntries
+      language: CSharp
+      name:
+        CSharp: ClearConsoleEntries()
+        VB: ClearConsoleEntries()
+      nameWithType:
+        CSharp: DeveloperConsoleBehaviour.ClearConsoleEntries()
+        VB: DeveloperConsoleBehaviour.ClearConsoleEntries()
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ClearConsoleEntries()
+        VB: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ClearConsoleEntries()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: ClearConsoleEntries
+        path: ''
+        startLine: 421
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public virtual void ClearConsoleEntries()
+          VB: Public Overridable Sub ClearConsoleEntries
+      overload: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ClearConsoleEntries*
+      modifiers:
+        CSharp:
+        - public
+        - virtual
+        VB:
+        - Public
+        - Overridable
+    - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ShowCommandHelp
+      commentId: M:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ShowCommandHelp
+      language: CSharp
+      name:
+        CSharp: ShowCommandHelp()
+        VB: ShowCommandHelp()
+      nameWithType:
+        CSharp: DeveloperConsoleBehaviour.ShowCommandHelp()
+        VB: DeveloperConsoleBehaviour.ShowCommandHelp()
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ShowCommandHelp()
+        VB: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ShowCommandHelp()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: ShowCommandHelp
+        path: ''
+        startLine: 429
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public virtual void ShowCommandHelp()
+          VB: Public Overridable Sub ShowCommandHelp
+      overload: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ShowCommandHelp*
+      modifiers:
+        CSharp:
+        - public
+        - virtual
+        VB:
+        - Public
+        - Overridable
+    - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.MakeBold(System.String)
+      commentId: M:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.MakeBold(System.String)
+      language: CSharp
+      name:
+        CSharp: MakeBold(String)
+        VB: MakeBold(String)
+      nameWithType:
+        CSharp: DeveloperConsoleBehaviour.MakeBold(String)
+        VB: DeveloperConsoleBehaviour.MakeBold(String)
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.MakeBold(System.String)
+        VB: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.MakeBold(System.String)
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: MakeBold
+        path: ''
+        startLine: 444
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected virtual string MakeBold(string value)
+          VB: Protected Overridable Function MakeBold(value As String) As String
+        parameters:
+        - id: value
+          type: System.String
+          description: ''
+        return:
+          type: System.String
+          description: ''
+      overload: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.MakeBold*
+      modifiers:
+        CSharp:
+        - protected
+        - virtual
+        VB:
+        - Protected
+        - Overridable
+  - id: ScriptableFramework.DeveloperConsole.Extensions
+    commentId: T:ScriptableFramework.DeveloperConsole.Extensions
+    language: CSharp
+    name:
+      CSharp: Extensions
+      VB: Extensions
+    nameWithType:
+      CSharp: Extensions
+      VB: Extensions
+    qualifiedName:
+      CSharp: ScriptableFramework.DeveloperConsole.Extensions
+      VB: ScriptableFramework.DeveloperConsole.Extensions
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: ScriptableFramework.DeveloperConsole
+    source:
+      id: Extensions
+      path: ''
+      startLine: 457
+    summary: "\n\n"
+    example: []
+    syntax:
+      content:
+        CSharp: public static class Extensions
+        VB: Public Module Extensions
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - static
+      - class
+      VB:
+      - Public
+      - Module
+    items:
+    - isExtensionMethod: true
+      id: ScriptableFramework.DeveloperConsole.Extensions.RaiseFromConsole(AppEvent,System.String)
+      commentId: M:ScriptableFramework.DeveloperConsole.Extensions.RaiseFromConsole(AppEvent,System.String)
+      language: CSharp
+      name:
+        CSharp: RaiseFromConsole(AppEvent, String)
+        VB: RaiseFromConsole(AppEvent, String)
+      nameWithType:
+        CSharp: Extensions.RaiseFromConsole(AppEvent, String)
+        VB: Extensions.RaiseFromConsole(AppEvent, String)
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.Extensions.RaiseFromConsole(AppEvent, System.String)
+        VB: ScriptableFramework.DeveloperConsole.Extensions.RaiseFromConsole(AppEvent, System.String)
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: RaiseFromConsole
+        path: ''
+        startLine: 464
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public static void RaiseFromConsole(this AppEvent appEvent, string commandWord)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Sub RaiseFromConsole(appEvent As AppEvent, commandWord As String)
+        parameters:
+        - id: appEvent
+          type: Global.AppEvent
+          description: ''
+        - id: commandWord
+          type: System.String
+          description: ''
+      overload: ScriptableFramework.DeveloperConsole.Extensions.RaiseFromConsole*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - isExtensionMethod: true
+      id: ScriptableFramework.DeveloperConsole.Extensions.RaiseFromConsole``1(AppEvent{``0},``0,System.String)
+      commentId: M:ScriptableFramework.DeveloperConsole.Extensions.RaiseFromConsole``1(AppEvent{``0},``0,System.String)
+      language: CSharp
+      name:
+        CSharp: RaiseFromConsole<T>(AppEvent<T>, T, String)
+        VB: RaiseFromConsole(Of T)(AppEvent(Of T), T, String)
+      nameWithType:
+        CSharp: Extensions.RaiseFromConsole<T>(AppEvent<T>, T, String)
+        VB: Extensions.RaiseFromConsole(Of T)(AppEvent(Of T), T, String)
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.Extensions.RaiseFromConsole<T>(AppEvent<T>, T, System.String)
+        VB: ScriptableFramework.DeveloperConsole.Extensions.RaiseFromConsole(Of T)(AppEvent(Of T), T, System.String)
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: RaiseFromConsole
+        path: ''
+        startLine: 476
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public static void RaiseFromConsole<T>(this AppEvent<T> appEvent, T value, string commandWord)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Sub RaiseFromConsole(Of T)(appEvent As AppEvent(Of T), value As T, commandWord As String)
+        parameters:
+        - id: appEvent
+          type: Global.AppEvent{{T}}
+          description: ''
+        - id: value
+          type: '{T}'
+          description: ''
+        - id: commandWord
+          type: System.String
+          description: ''
+        typeParameters:
+        - id: T
+          description: ''
+      overload: ScriptableFramework.DeveloperConsole.Extensions.RaiseFromConsole*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+  - id: ScriptableFramework.DeveloperConsole.ConsoleCommand
+    commentId: T:ScriptableFramework.DeveloperConsole.ConsoleCommand
+    language: CSharp
+    name:
+      CSharp: ConsoleCommand
+      VB: ConsoleCommand
+    nameWithType:
+      CSharp: ConsoleCommand
+      VB: ConsoleCommand
+    qualifiedName:
+      CSharp: ScriptableFramework.DeveloperConsole.ConsoleCommand
+      VB: ScriptableFramework.DeveloperConsole.ConsoleCommand
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: ScriptableFramework.DeveloperConsole
+    source:
+      id: ConsoleCommand
+      path: ''
+      startLine: 489
+    summary: "\n\n"
+    example: []
+    syntax:
+      content:
+        CSharp: 'public abstract class ConsoleCommand : ScriptableObject, IConsoleCommand'
+        VB: >-
+          Public MustInherit Class ConsoleCommand
+
+              Inherits ScriptableObject
+
+              Implements IConsoleCommand
+    inheritance:
+    - System.Object
+    implements:
+    - ScriptableFramework.DeveloperConsole.IConsoleCommand
+    modifiers:
+      CSharp:
+      - public
+      - abstract
+      - class
+      VB:
+      - Public
+      - MustInherit
+      - Class
+    items:
+    - id: ScriptableFramework.DeveloperConsole.ConsoleCommand.CommandWord
+      commentId: P:ScriptableFramework.DeveloperConsole.ConsoleCommand.CommandWord
+      language: CSharp
+      name:
+        CSharp: CommandWord
+        VB: CommandWord
+      nameWithType:
+        CSharp: ConsoleCommand.CommandWord
+        VB: ConsoleCommand.CommandWord
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.ConsoleCommand.CommandWord
+        VB: ScriptableFramework.DeveloperConsole.ConsoleCommand.CommandWord
+      type: Property
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: CommandWord
+        path: ''
+        startLine: 504
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public string CommandWord { get; }
+          VB: Public ReadOnly Property CommandWord As String
+        parameters: []
+        return:
+          type: System.String
+      overload: ScriptableFramework.DeveloperConsole.ConsoleCommand.CommandWord*
+      implements:
+      - ScriptableFramework.DeveloperConsole.IConsoleCommand.CommandWord
+      modifiers:
+        CSharp:
+        - public
+        - get
+        VB:
+        - Public
+        - ReadOnly
+    - id: ScriptableFramework.DeveloperConsole.ConsoleCommand.Process(System.String[])
+      commentId: M:ScriptableFramework.DeveloperConsole.ConsoleCommand.Process(System.String[])
+      language: CSharp
+      name:
+        CSharp: Process(String[])
+        VB: Process(String())
+      nameWithType:
+        CSharp: ConsoleCommand.Process(String[])
+        VB: ConsoleCommand.Process(String())
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.ConsoleCommand.Process(System.String[])
+        VB: ScriptableFramework.DeveloperConsole.ConsoleCommand.Process(System.String())
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: Process
+        path: ''
+        startLine: 511
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public abstract bool Process(string[] args)
+          VB: Public MustOverride Function Process(args As String()) As Boolean
+        parameters:
+        - id: args
+          type: System.String[]
+          description: ''
+        return:
+          type: System.Boolean
+          description: ''
+      overload: ScriptableFramework.DeveloperConsole.ConsoleCommand.Process*
+      implements:
+      - ScriptableFramework.DeveloperConsole.IConsoleCommand.Process(System.String[])
+      modifiers:
+        CSharp:
+        - public
+        - abstract
+        VB:
+        - Public
+        - MustOverride
+  - id: ScriptableFramework.DeveloperConsole.IConsoleCommand
+    commentId: T:ScriptableFramework.DeveloperConsole.IConsoleCommand
+    language: CSharp
+    name:
+      CSharp: IConsoleCommand
+      VB: IConsoleCommand
+    nameWithType:
+      CSharp: IConsoleCommand
+      VB: IConsoleCommand
+    qualifiedName:
+      CSharp: ScriptableFramework.DeveloperConsole.IConsoleCommand
+      VB: ScriptableFramework.DeveloperConsole.IConsoleCommand
+    type: Interface
+    assemblies:
+    - cs.temp.dll
+    namespace: ScriptableFramework.DeveloperConsole
+    source:
+      id: IConsoleCommand
+      path: ''
+      startLine: 519
+    summary: "\n\n"
+    example: []
+    syntax:
+      content:
+        CSharp: public interface IConsoleCommand
+        VB: Public Interface IConsoleCommand
+    modifiers:
+      CSharp:
+      - public
+      - interface
+      VB:
+      - Public
+      - Interface
+    items:
+    - id: ScriptableFramework.DeveloperConsole.IConsoleCommand.CommandWord
+      commentId: P:ScriptableFramework.DeveloperConsole.IConsoleCommand.CommandWord
+      language: CSharp
+      name:
+        CSharp: CommandWord
+        VB: CommandWord
+      nameWithType:
+        CSharp: IConsoleCommand.CommandWord
+        VB: IConsoleCommand.CommandWord
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.IConsoleCommand.CommandWord
+        VB: ScriptableFramework.DeveloperConsole.IConsoleCommand.CommandWord
+      type: Property
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: CommandWord
+        path: ''
+        startLine: 524
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: string CommandWord { get; }
+          VB: ReadOnly Property CommandWord As String
+        parameters: []
+        return:
+          type: System.String
+      overload: ScriptableFramework.DeveloperConsole.IConsoleCommand.CommandWord*
+      modifiers:
+        CSharp:
+        - get
+        VB:
+        - ReadOnly
+    - id: ScriptableFramework.DeveloperConsole.IConsoleCommand.Process(System.String[])
+      commentId: M:ScriptableFramework.DeveloperConsole.IConsoleCommand.Process(System.String[])
+      language: CSharp
+      name:
+        CSharp: Process(String[])
+        VB: Process(String())
+      nameWithType:
+        CSharp: IConsoleCommand.Process(String[])
+        VB: IConsoleCommand.Process(String())
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.IConsoleCommand.Process(System.String[])
+        VB: ScriptableFramework.DeveloperConsole.IConsoleCommand.Process(System.String())
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: Process
+        path: ''
+        startLine: 531
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: bool Process(string[] args)
+          VB: Function Process(args As String()) As Boolean
+        parameters:
+        - id: args
+          type: System.String[]
+          description: ''
+        return:
+          type: System.Boolean
+          description: ''
+      overload: ScriptableFramework.DeveloperConsole.IConsoleCommand.Process*
+      modifiers:
+        CSharp: []
+        VB: []
+  - id: ScriptableFramework.DeveloperConsole.ClearCommand
+    commentId: T:ScriptableFramework.DeveloperConsole.ClearCommand
+    language: CSharp
+    name:
+      CSharp: ClearCommand
+      VB: ClearCommand
+    nameWithType:
+      CSharp: ClearCommand
+      VB: ClearCommand
+    qualifiedName:
+      CSharp: ScriptableFramework.DeveloperConsole.ClearCommand
+      VB: ScriptableFramework.DeveloperConsole.ClearCommand
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: ScriptableFramework.DeveloperConsole
+    source:
+      id: ClearCommand
+      path: ''
+      startLine: 541
+    summary: "\n\n"
+    example: []
+    syntax:
+      content:
+        CSharp: 'public class ClearCommand : ConsoleCommand, IConsoleCommand'
+        VB: >-
+          Public Class ClearCommand
+
+              Inherits ConsoleCommand
+
+              Implements IConsoleCommand
+    inheritance:
+    - System.Object
+    - ScriptableFramework.DeveloperConsole.ConsoleCommand
+    implements:
+    - ScriptableFramework.DeveloperConsole.IConsoleCommand
+    inheritedMembers:
+    - ScriptableFramework.DeveloperConsole.ConsoleCommand.CommandWord
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: ScriptableFramework.DeveloperConsole.ClearCommand.Process(System.String[])
+      commentId: M:ScriptableFramework.DeveloperConsole.ClearCommand.Process(System.String[])
+      language: CSharp
+      name:
+        CSharp: Process(String[])
+        VB: Process(String())
+      nameWithType:
+        CSharp: ClearCommand.Process(String[])
+        VB: ClearCommand.Process(String())
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.ClearCommand.Process(System.String[])
+        VB: ScriptableFramework.DeveloperConsole.ClearCommand.Process(System.String())
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: Process
+        path: ''
+        startLine: 549
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public override bool Process(string[] args)
+          VB: Public Overrides Function Process(args As String()) As Boolean
+        parameters:
+        - id: args
+          type: System.String[]
+          description: ''
+        return:
+          type: System.Boolean
+          description: ''
+      overload: ScriptableFramework.DeveloperConsole.ClearCommand.Process*
+      overridden: ScriptableFramework.DeveloperConsole.ConsoleCommand.Process(System.String[])
+      modifiers:
+        CSharp:
+        - public
+        - override
+        VB:
+        - Public
+        - Overrides
+  - id: ScriptableFramework.DeveloperConsole.GravityCommand
+    commentId: T:ScriptableFramework.DeveloperConsole.GravityCommand
+    language: CSharp
+    name:
+      CSharp: GravityCommand
+      VB: GravityCommand
+    nameWithType:
+      CSharp: GravityCommand
+      VB: GravityCommand
+    qualifiedName:
+      CSharp: ScriptableFramework.DeveloperConsole.GravityCommand
+      VB: ScriptableFramework.DeveloperConsole.GravityCommand
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: ScriptableFramework.DeveloperConsole
+    source:
+      id: GravityCommand
+      path: ''
+      startLine: 566
+    summary: "\n\n"
+    example: []
+    syntax:
+      content:
+        CSharp: 'public class GravityCommand : ConsoleCommand, IConsoleCommand'
+        VB: >-
+          Public Class GravityCommand
+
+              Inherits ConsoleCommand
+
+              Implements IConsoleCommand
+    inheritance:
+    - System.Object
+    - ScriptableFramework.DeveloperConsole.ConsoleCommand
+    implements:
+    - ScriptableFramework.DeveloperConsole.IConsoleCommand
+    inheritedMembers:
+    - ScriptableFramework.DeveloperConsole.ConsoleCommand.CommandWord
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: ScriptableFramework.DeveloperConsole.GravityCommand.Process(System.String[])
+      commentId: M:ScriptableFramework.DeveloperConsole.GravityCommand.Process(System.String[])
+      language: CSharp
+      name:
+        CSharp: Process(String[])
+        VB: Process(String())
+      nameWithType:
+        CSharp: GravityCommand.Process(String[])
+        VB: GravityCommand.Process(String())
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.GravityCommand.Process(System.String[])
+        VB: ScriptableFramework.DeveloperConsole.GravityCommand.Process(System.String())
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: Process
+        path: ''
+        startLine: 574
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public override bool Process(string[] args)
+          VB: Public Overrides Function Process(args As String()) As Boolean
+        parameters:
+        - id: args
+          type: System.String[]
+          description: ''
+        return:
+          type: System.Boolean
+          description: ''
+      overload: ScriptableFramework.DeveloperConsole.GravityCommand.Process*
+      overridden: ScriptableFramework.DeveloperConsole.ConsoleCommand.Process(System.String[])
+      modifiers:
+        CSharp:
+        - public
+        - override
+        VB:
+        - Public
+        - Overrides
+  - id: ScriptableFramework.DeveloperConsole.HelpCommand
+    commentId: T:ScriptableFramework.DeveloperConsole.HelpCommand
+    language: CSharp
+    name:
+      CSharp: HelpCommand
+      VB: HelpCommand
+    nameWithType:
+      CSharp: HelpCommand
+      VB: HelpCommand
+    qualifiedName:
+      CSharp: ScriptableFramework.DeveloperConsole.HelpCommand
+      VB: ScriptableFramework.DeveloperConsole.HelpCommand
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: ScriptableFramework.DeveloperConsole
+    source:
+      id: HelpCommand
+      path: ''
+      startLine: 596
+    summary: "\n\n"
+    example: []
+    syntax:
+      content:
+        CSharp: 'public class HelpCommand : ConsoleCommand, IConsoleCommand'
+        VB: >-
+          Public Class HelpCommand
+
+              Inherits ConsoleCommand
+
+              Implements IConsoleCommand
+    inheritance:
+    - System.Object
+    - ScriptableFramework.DeveloperConsole.ConsoleCommand
+    implements:
+    - ScriptableFramework.DeveloperConsole.IConsoleCommand
+    inheritedMembers:
+    - ScriptableFramework.DeveloperConsole.ConsoleCommand.CommandWord
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: ScriptableFramework.DeveloperConsole.HelpCommand.Process(System.String[])
+      commentId: M:ScriptableFramework.DeveloperConsole.HelpCommand.Process(System.String[])
+      language: CSharp
+      name:
+        CSharp: Process(String[])
+        VB: Process(String())
+      nameWithType:
+        CSharp: HelpCommand.Process(String[])
+        VB: HelpCommand.Process(String())
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.HelpCommand.Process(System.String[])
+        VB: ScriptableFramework.DeveloperConsole.HelpCommand.Process(System.String())
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: Process
+        path: ''
+        startLine: 604
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public override bool Process(string[] args)
+          VB: Public Overrides Function Process(args As String()) As Boolean
+        parameters:
+        - id: args
+          type: System.String[]
+          description: ''
+        return:
+          type: System.Boolean
+          description: ''
+      overload: ScriptableFramework.DeveloperConsole.HelpCommand.Process*
+      overridden: ScriptableFramework.DeveloperConsole.ConsoleCommand.Process(System.String[])
+      modifiers:
+        CSharp:
+        - public
+        - override
+        VB:
+        - Public
+        - Overrides
+  - id: ScriptableFramework.DeveloperConsole.LoadSceneCommand
+    commentId: T:ScriptableFramework.DeveloperConsole.LoadSceneCommand
+    language: CSharp
+    name:
+      CSharp: LoadSceneCommand
+      VB: LoadSceneCommand
+    nameWithType:
+      CSharp: LoadSceneCommand
+      VB: LoadSceneCommand
+    qualifiedName:
+      CSharp: ScriptableFramework.DeveloperConsole.LoadSceneCommand
+      VB: ScriptableFramework.DeveloperConsole.LoadSceneCommand
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: ScriptableFramework.DeveloperConsole
+    source:
+      id: LoadSceneCommand
+      path: ''
+      startLine: 622
+    summary: "\n\n"
+    example: []
+    syntax:
+      content:
+        CSharp: 'public class LoadSceneCommand : ConsoleCommand, IConsoleCommand'
+        VB: >-
+          Public Class LoadSceneCommand
+
+              Inherits ConsoleCommand
+
+              Implements IConsoleCommand
+    inheritance:
+    - System.Object
+    - ScriptableFramework.DeveloperConsole.ConsoleCommand
+    implements:
+    - ScriptableFramework.DeveloperConsole.IConsoleCommand
+    inheritedMembers:
+    - ScriptableFramework.DeveloperConsole.ConsoleCommand.CommandWord
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: ScriptableFramework.DeveloperConsole.LoadSceneCommand.Process(System.String[])
+      commentId: M:ScriptableFramework.DeveloperConsole.LoadSceneCommand.Process(System.String[])
+      language: CSharp
+      name:
+        CSharp: Process(String[])
+        VB: Process(String())
+      nameWithType:
+        CSharp: LoadSceneCommand.Process(String[])
+        VB: LoadSceneCommand.Process(String())
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.LoadSceneCommand.Process(System.String[])
+        VB: ScriptableFramework.DeveloperConsole.LoadSceneCommand.Process(System.String())
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: Process
+        path: ''
+        startLine: 630
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public override bool Process(string[] args)
+          VB: Public Overrides Function Process(args As String()) As Boolean
+        parameters:
+        - id: args
+          type: System.String[]
+          description: ''
+        return:
+          type: System.Boolean
+          description: ''
+      overload: ScriptableFramework.DeveloperConsole.LoadSceneCommand.Process*
+      overridden: ScriptableFramework.DeveloperConsole.ConsoleCommand.Process(System.String[])
+      modifiers:
+        CSharp:
+        - public
+        - override
+        VB:
+        - Public
+        - Overrides
+  - id: ScriptableFramework.DeveloperConsole.LogCommand
+    commentId: T:ScriptableFramework.DeveloperConsole.LogCommand
+    language: CSharp
+    name:
+      CSharp: LogCommand
+      VB: LogCommand
+    nameWithType:
+      CSharp: LogCommand
+      VB: LogCommand
+    qualifiedName:
+      CSharp: ScriptableFramework.DeveloperConsole.LogCommand
+      VB: ScriptableFramework.DeveloperConsole.LogCommand
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: ScriptableFramework.DeveloperConsole
+    source:
+      id: LogCommand
+      path: ''
+      startLine: 654
+    summary: "\n\n"
+    example: []
+    syntax:
+      content:
+        CSharp: 'public class LogCommand : ConsoleCommand, IConsoleCommand'
+        VB: >-
+          Public Class LogCommand
+
+              Inherits ConsoleCommand
+
+              Implements IConsoleCommand
+    inheritance:
+    - System.Object
+    - ScriptableFramework.DeveloperConsole.ConsoleCommand
+    implements:
+    - ScriptableFramework.DeveloperConsole.IConsoleCommand
+    inheritedMembers:
+    - ScriptableFramework.DeveloperConsole.ConsoleCommand.CommandWord
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: ScriptableFramework.DeveloperConsole.LogCommand.Process(System.String[])
+      commentId: M:ScriptableFramework.DeveloperConsole.LogCommand.Process(System.String[])
+      language: CSharp
+      name:
+        CSharp: Process(String[])
+        VB: Process(String())
+      nameWithType:
+        CSharp: LogCommand.Process(String[])
+        VB: LogCommand.Process(String())
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.LogCommand.Process(System.String[])
+        VB: ScriptableFramework.DeveloperConsole.LogCommand.Process(System.String())
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: Process
+        path: ''
+        startLine: 662
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public override bool Process(string[] args)
+          VB: Public Overrides Function Process(args As String()) As Boolean
+        parameters:
+        - id: args
+          type: System.String[]
+          description: ''
+        return:
+          type: System.Boolean
+          description: ''
+      overload: ScriptableFramework.DeveloperConsole.LogCommand.Process*
+      overridden: ScriptableFramework.DeveloperConsole.ConsoleCommand.Process(System.String[])
+      modifiers:
+        CSharp:
+        - public
+        - override
+        VB:
+        - Public
+        - Overrides
+  - id: ScriptableFramework.DeveloperConsole.TimeScaleCommand
+    commentId: T:ScriptableFramework.DeveloperConsole.TimeScaleCommand
+    language: CSharp
+    name:
+      CSharp: TimeScaleCommand
+      VB: TimeScaleCommand
+    nameWithType:
+      CSharp: TimeScaleCommand
+      VB: TimeScaleCommand
+    qualifiedName:
+      CSharp: ScriptableFramework.DeveloperConsole.TimeScaleCommand
+      VB: ScriptableFramework.DeveloperConsole.TimeScaleCommand
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: ScriptableFramework.DeveloperConsole
+    source:
+      id: TimeScaleCommand
+      path: ''
+      startLine: 683
+    summary: "\n\n"
+    example: []
+    syntax:
+      content:
+        CSharp: 'public class TimeScaleCommand : ConsoleCommand, IConsoleCommand'
+        VB: >-
+          Public Class TimeScaleCommand
+
+              Inherits ConsoleCommand
+
+              Implements IConsoleCommand
+    inheritance:
+    - System.Object
+    - ScriptableFramework.DeveloperConsole.ConsoleCommand
+    implements:
+    - ScriptableFramework.DeveloperConsole.IConsoleCommand
+    inheritedMembers:
+    - ScriptableFramework.DeveloperConsole.ConsoleCommand.CommandWord
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: ScriptableFramework.DeveloperConsole.TimeScaleCommand.Process(System.String[])
+      commentId: M:ScriptableFramework.DeveloperConsole.TimeScaleCommand.Process(System.String[])
+      language: CSharp
+      name:
+        CSharp: Process(String[])
+        VB: Process(String())
+      nameWithType:
+        CSharp: TimeScaleCommand.Process(String[])
+        VB: TimeScaleCommand.Process(String())
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.TimeScaleCommand.Process(System.String[])
+        VB: ScriptableFramework.DeveloperConsole.TimeScaleCommand.Process(System.String())
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: Process
+        path: ''
+        startLine: 691
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public override bool Process(string[] args)
+          VB: Public Overrides Function Process(args As String()) As Boolean
+        parameters:
+        - id: args
+          type: System.String[]
+          description: ''
+        return:
+          type: System.Boolean
+          description: ''
+      overload: ScriptableFramework.DeveloperConsole.TimeScaleCommand.Process*
+      overridden: ScriptableFramework.DeveloperConsole.ConsoleCommand.Process(System.String[])
+      modifiers:
+        CSharp:
+        - public
+        - override
+        VB:
+        - Public
+        - Overrides
+  - id: ScriptableFramework.DeveloperConsole.AppEventCommand
+    commentId: T:ScriptableFramework.DeveloperConsole.AppEventCommand
+    language: CSharp
+    name:
+      CSharp: AppEventCommand
+      VB: AppEventCommand
+    nameWithType:
+      CSharp: AppEventCommand
+      VB: AppEventCommand
+    qualifiedName:
+      CSharp: ScriptableFramework.DeveloperConsole.AppEventCommand
+      VB: ScriptableFramework.DeveloperConsole.AppEventCommand
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: ScriptableFramework.DeveloperConsole
+    source:
+      id: AppEventCommand
+      path: ''
+      startLine: 713
+    summary: "\n\n"
+    example: []
+    syntax:
+      content:
+        CSharp: 'public class AppEventCommand : ConsoleCommand, IConsoleCommand'
+        VB: >-
+          Public Class AppEventCommand
+
+              Inherits ConsoleCommand
+
+              Implements IConsoleCommand
+    inheritance:
+    - System.Object
+    - ScriptableFramework.DeveloperConsole.ConsoleCommand
+    implements:
+    - ScriptableFramework.DeveloperConsole.IConsoleCommand
+    inheritedMembers:
+    - ScriptableFramework.DeveloperConsole.ConsoleCommand.CommandWord
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: ScriptableFramework.DeveloperConsole.AppEventCommand.appEvent
+      commentId: F:ScriptableFramework.DeveloperConsole.AppEventCommand.appEvent
+      language: CSharp
+      name:
+        CSharp: appEvent
+        VB: appEvent
+      nameWithType:
+        CSharp: AppEventCommand.appEvent
+        VB: AppEventCommand.appEvent
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.AppEventCommand.appEvent
+        VB: ScriptableFramework.DeveloperConsole.AppEventCommand.appEvent
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: appEvent
+        path: ''
+        startLine: 719
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected AppEvent appEvent
+          VB: Protected appEvent As AppEvent
+        return:
+          type: Global.AppEvent
+      modifiers:
+        CSharp:
+        - protected
+        VB:
+        - Protected
+    - id: ScriptableFramework.DeveloperConsole.AppEventCommand.Process(System.String[])
+      commentId: M:ScriptableFramework.DeveloperConsole.AppEventCommand.Process(System.String[])
+      language: CSharp
+      name:
+        CSharp: Process(String[])
+        VB: Process(String())
+      nameWithType:
+        CSharp: AppEventCommand.Process(String[])
+        VB: AppEventCommand.Process(String())
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.AppEventCommand.Process(System.String[])
+        VB: ScriptableFramework.DeveloperConsole.AppEventCommand.Process(System.String())
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: Process
+        path: ''
+        startLine: 726
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public override bool Process(string[] args)
+          VB: Public Overrides Function Process(args As String()) As Boolean
+        parameters:
+        - id: args
+          type: System.String[]
+          description: ''
+        return:
+          type: System.Boolean
+          description: ''
+      overload: ScriptableFramework.DeveloperConsole.AppEventCommand.Process*
+      overridden: ScriptableFramework.DeveloperConsole.ConsoleCommand.Process(System.String[])
+      modifiers:
+        CSharp:
+        - public
+        - override
+        VB:
+        - Public
+        - Overrides
+  - id: ScriptableFramework.DeveloperConsole.BoolEventCommand
+    commentId: T:ScriptableFramework.DeveloperConsole.BoolEventCommand
+    language: CSharp
+    name:
+      CSharp: BoolEventCommand
+      VB: BoolEventCommand
+    nameWithType:
+      CSharp: BoolEventCommand
+      VB: BoolEventCommand
+    qualifiedName:
+      CSharp: ScriptableFramework.DeveloperConsole.BoolEventCommand
+      VB: ScriptableFramework.DeveloperConsole.BoolEventCommand
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: ScriptableFramework.DeveloperConsole
+    source:
+      id: BoolEventCommand
+      path: ''
+      startLine: 745
+    summary: "\n\n"
+    example: []
+    syntax:
+      content:
+        CSharp: 'public class BoolEventCommand : ConsoleCommand, IConsoleCommand'
+        VB: >-
+          Public Class BoolEventCommand
+
+              Inherits ConsoleCommand
+
+              Implements IConsoleCommand
+    inheritance:
+    - System.Object
+    - ScriptableFramework.DeveloperConsole.ConsoleCommand
+    implements:
+    - ScriptableFramework.DeveloperConsole.IConsoleCommand
+    inheritedMembers:
+    - ScriptableFramework.DeveloperConsole.ConsoleCommand.CommandWord
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: ScriptableFramework.DeveloperConsole.BoolEventCommand.boolEvent
+      commentId: F:ScriptableFramework.DeveloperConsole.BoolEventCommand.boolEvent
+      language: CSharp
+      name:
+        CSharp: boolEvent
+        VB: boolEvent
+      nameWithType:
+        CSharp: BoolEventCommand.boolEvent
+        VB: BoolEventCommand.boolEvent
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.BoolEventCommand.boolEvent
+        VB: ScriptableFramework.DeveloperConsole.BoolEventCommand.boolEvent
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: boolEvent
+        path: ''
+        startLine: 751
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected BoolEvent boolEvent
+          VB: Protected boolEvent As BoolEvent
+        return:
+          type: Global.BoolEvent
+      modifiers:
+        CSharp:
+        - protected
+        VB:
+        - Protected
+    - id: ScriptableFramework.DeveloperConsole.BoolEventCommand.Process(System.String[])
+      commentId: M:ScriptableFramework.DeveloperConsole.BoolEventCommand.Process(System.String[])
+      language: CSharp
+      name:
+        CSharp: Process(String[])
+        VB: Process(String())
+      nameWithType:
+        CSharp: BoolEventCommand.Process(String[])
+        VB: BoolEventCommand.Process(String())
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.BoolEventCommand.Process(System.String[])
+        VB: ScriptableFramework.DeveloperConsole.BoolEventCommand.Process(System.String())
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: Process
+        path: ''
+        startLine: 758
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public override bool Process(string[] args)
+          VB: Public Overrides Function Process(args As String()) As Boolean
+        parameters:
+        - id: args
+          type: System.String[]
+          description: ''
+        return:
+          type: System.Boolean
+          description: ''
+      overload: ScriptableFramework.DeveloperConsole.BoolEventCommand.Process*
+      overridden: ScriptableFramework.DeveloperConsole.ConsoleCommand.Process(System.String[])
+      modifiers:
+        CSharp:
+        - public
+        - override
+        VB:
+        - Public
+        - Overrides
+  - id: ScriptableFramework.DeveloperConsole.BoundsEventCommand
+    commentId: T:ScriptableFramework.DeveloperConsole.BoundsEventCommand
+    language: CSharp
+    name:
+      CSharp: BoundsEventCommand
+      VB: BoundsEventCommand
+    nameWithType:
+      CSharp: BoundsEventCommand
+      VB: BoundsEventCommand
+    qualifiedName:
+      CSharp: ScriptableFramework.DeveloperConsole.BoundsEventCommand
+      VB: ScriptableFramework.DeveloperConsole.BoundsEventCommand
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: ScriptableFramework.DeveloperConsole
+    source:
+      id: BoundsEventCommand
+      path: ''
+      startLine: 779
+    summary: "\n\n"
+    example: []
+    syntax:
+      content:
+        CSharp: 'public class BoundsEventCommand : ConsoleCommand, IConsoleCommand'
+        VB: >-
+          Public Class BoundsEventCommand
+
+              Inherits ConsoleCommand
+
+              Implements IConsoleCommand
+    inheritance:
+    - System.Object
+    - ScriptableFramework.DeveloperConsole.ConsoleCommand
+    implements:
+    - ScriptableFramework.DeveloperConsole.IConsoleCommand
+    inheritedMembers:
+    - ScriptableFramework.DeveloperConsole.ConsoleCommand.CommandWord
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: ScriptableFramework.DeveloperConsole.BoundsEventCommand.boundsEvent
+      commentId: F:ScriptableFramework.DeveloperConsole.BoundsEventCommand.boundsEvent
+      language: CSharp
+      name:
+        CSharp: boundsEvent
+        VB: boundsEvent
+      nameWithType:
+        CSharp: BoundsEventCommand.boundsEvent
+        VB: BoundsEventCommand.boundsEvent
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.BoundsEventCommand.boundsEvent
+        VB: ScriptableFramework.DeveloperConsole.BoundsEventCommand.boundsEvent
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: boundsEvent
+        path: ''
+        startLine: 785
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected BoundsEvent boundsEvent
+          VB: Protected boundsEvent As BoundsEvent
+        return:
+          type: Global.BoundsEvent
+      modifiers:
+        CSharp:
+        - protected
+        VB:
+        - Protected
+    - id: ScriptableFramework.DeveloperConsole.BoundsEventCommand.Process(System.String[])
+      commentId: M:ScriptableFramework.DeveloperConsole.BoundsEventCommand.Process(System.String[])
+      language: CSharp
+      name:
+        CSharp: Process(String[])
+        VB: Process(String())
+      nameWithType:
+        CSharp: BoundsEventCommand.Process(String[])
+        VB: BoundsEventCommand.Process(String())
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.BoundsEventCommand.Process(System.String[])
+        VB: ScriptableFramework.DeveloperConsole.BoundsEventCommand.Process(System.String())
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: Process
+        path: ''
+        startLine: 792
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public override bool Process(string[] args)
+          VB: Public Overrides Function Process(args As String()) As Boolean
+        parameters:
+        - id: args
+          type: System.String[]
+          description: ''
+        return:
+          type: System.Boolean
+          description: ''
+      overload: ScriptableFramework.DeveloperConsole.BoundsEventCommand.Process*
+      overridden: ScriptableFramework.DeveloperConsole.ConsoleCommand.Process(System.String[])
+      modifiers:
+        CSharp:
+        - public
+        - override
+        VB:
+        - Public
+        - Overrides
+  - id: ScriptableFramework.DeveloperConsole.FloatEventCommand
+    commentId: T:ScriptableFramework.DeveloperConsole.FloatEventCommand
+    language: CSharp
+    name:
+      CSharp: FloatEventCommand
+      VB: FloatEventCommand
+    nameWithType:
+      CSharp: FloatEventCommand
+      VB: FloatEventCommand
+    qualifiedName:
+      CSharp: ScriptableFramework.DeveloperConsole.FloatEventCommand
+      VB: ScriptableFramework.DeveloperConsole.FloatEventCommand
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: ScriptableFramework.DeveloperConsole
+    source:
+      id: FloatEventCommand
+      path: ''
+      startLine: 813
+    summary: "\n\n"
+    example: []
+    syntax:
+      content:
+        CSharp: 'public class FloatEventCommand : ConsoleCommand, IConsoleCommand'
+        VB: >-
+          Public Class FloatEventCommand
+
+              Inherits ConsoleCommand
+
+              Implements IConsoleCommand
+    inheritance:
+    - System.Object
+    - ScriptableFramework.DeveloperConsole.ConsoleCommand
+    implements:
+    - ScriptableFramework.DeveloperConsole.IConsoleCommand
+    inheritedMembers:
+    - ScriptableFramework.DeveloperConsole.ConsoleCommand.CommandWord
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: ScriptableFramework.DeveloperConsole.FloatEventCommand.floatEvent
+      commentId: F:ScriptableFramework.DeveloperConsole.FloatEventCommand.floatEvent
+      language: CSharp
+      name:
+        CSharp: floatEvent
+        VB: floatEvent
+      nameWithType:
+        CSharp: FloatEventCommand.floatEvent
+        VB: FloatEventCommand.floatEvent
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.FloatEventCommand.floatEvent
+        VB: ScriptableFramework.DeveloperConsole.FloatEventCommand.floatEvent
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: floatEvent
+        path: ''
+        startLine: 819
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected FloatEvent floatEvent
+          VB: Protected floatEvent As FloatEvent
+        return:
+          type: Global.FloatEvent
+      modifiers:
+        CSharp:
+        - protected
+        VB:
+        - Protected
+    - id: ScriptableFramework.DeveloperConsole.FloatEventCommand.Process(System.String[])
+      commentId: M:ScriptableFramework.DeveloperConsole.FloatEventCommand.Process(System.String[])
+      language: CSharp
+      name:
+        CSharp: Process(String[])
+        VB: Process(String())
+      nameWithType:
+        CSharp: FloatEventCommand.Process(String[])
+        VB: FloatEventCommand.Process(String())
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.FloatEventCommand.Process(System.String[])
+        VB: ScriptableFramework.DeveloperConsole.FloatEventCommand.Process(System.String())
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: Process
+        path: ''
+        startLine: 826
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public override bool Process(string[] args)
+          VB: Public Overrides Function Process(args As String()) As Boolean
+        parameters:
+        - id: args
+          type: System.String[]
+          description: ''
+        return:
+          type: System.Boolean
+          description: ''
+      overload: ScriptableFramework.DeveloperConsole.FloatEventCommand.Process*
+      overridden: ScriptableFramework.DeveloperConsole.ConsoleCommand.Process(System.String[])
+      modifiers:
+        CSharp:
+        - public
+        - override
+        VB:
+        - Public
+        - Overrides
+  - id: ScriptableFramework.DeveloperConsole.IntEventCommand
+    commentId: T:ScriptableFramework.DeveloperConsole.IntEventCommand
+    language: CSharp
+    name:
+      CSharp: IntEventCommand
+      VB: IntEventCommand
+    nameWithType:
+      CSharp: IntEventCommand
+      VB: IntEventCommand
+    qualifiedName:
+      CSharp: ScriptableFramework.DeveloperConsole.IntEventCommand
+      VB: ScriptableFramework.DeveloperConsole.IntEventCommand
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: ScriptableFramework.DeveloperConsole
+    source:
+      id: IntEventCommand
+      path: ''
+      startLine: 847
+    summary: "\n\n"
+    example: []
+    syntax:
+      content:
+        CSharp: 'public class IntEventCommand : ConsoleCommand, IConsoleCommand'
+        VB: >-
+          Public Class IntEventCommand
+
+              Inherits ConsoleCommand
+
+              Implements IConsoleCommand
+    inheritance:
+    - System.Object
+    - ScriptableFramework.DeveloperConsole.ConsoleCommand
+    implements:
+    - ScriptableFramework.DeveloperConsole.IConsoleCommand
+    inheritedMembers:
+    - ScriptableFramework.DeveloperConsole.ConsoleCommand.CommandWord
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: ScriptableFramework.DeveloperConsole.IntEventCommand.intEvent
+      commentId: F:ScriptableFramework.DeveloperConsole.IntEventCommand.intEvent
+      language: CSharp
+      name:
+        CSharp: intEvent
+        VB: intEvent
+      nameWithType:
+        CSharp: IntEventCommand.intEvent
+        VB: IntEventCommand.intEvent
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.IntEventCommand.intEvent
+        VB: ScriptableFramework.DeveloperConsole.IntEventCommand.intEvent
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: intEvent
+        path: ''
+        startLine: 853
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected IntEvent intEvent
+          VB: Protected intEvent As IntEvent
+        return:
+          type: Global.IntEvent
+      modifiers:
+        CSharp:
+        - protected
+        VB:
+        - Protected
+    - id: ScriptableFramework.DeveloperConsole.IntEventCommand.Process(System.String[])
+      commentId: M:ScriptableFramework.DeveloperConsole.IntEventCommand.Process(System.String[])
+      language: CSharp
+      name:
+        CSharp: Process(String[])
+        VB: Process(String())
+      nameWithType:
+        CSharp: IntEventCommand.Process(String[])
+        VB: IntEventCommand.Process(String())
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.IntEventCommand.Process(System.String[])
+        VB: ScriptableFramework.DeveloperConsole.IntEventCommand.Process(System.String())
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: Process
+        path: ''
+        startLine: 860
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public override bool Process(string[] args)
+          VB: Public Overrides Function Process(args As String()) As Boolean
+        parameters:
+        - id: args
+          type: System.String[]
+          description: ''
+        return:
+          type: System.Boolean
+          description: ''
+      overload: ScriptableFramework.DeveloperConsole.IntEventCommand.Process*
+      overridden: ScriptableFramework.DeveloperConsole.ConsoleCommand.Process(System.String[])
+      modifiers:
+        CSharp:
+        - public
+        - override
+        VB:
+        - Public
+        - Overrides
+  - id: ScriptableFramework.DeveloperConsole.StateMachineCommand
+    commentId: T:ScriptableFramework.DeveloperConsole.StateMachineCommand
+    language: CSharp
+    name:
+      CSharp: StateMachineCommand
+      VB: StateMachineCommand
+    nameWithType:
+      CSharp: StateMachineCommand
+      VB: StateMachineCommand
+    qualifiedName:
+      CSharp: ScriptableFramework.DeveloperConsole.StateMachineCommand
+      VB: ScriptableFramework.DeveloperConsole.StateMachineCommand
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: ScriptableFramework.DeveloperConsole
+    source:
+      id: StateMachineCommand
+      path: ''
+      startLine: 881
+    summary: "\n\n"
+    example: []
+    syntax:
+      content:
+        CSharp: 'public class StateMachineCommand : ConsoleCommand, IConsoleCommand'
+        VB: >-
+          Public Class StateMachineCommand
+
+              Inherits ConsoleCommand
+
+              Implements IConsoleCommand
+    inheritance:
+    - System.Object
+    - ScriptableFramework.DeveloperConsole.ConsoleCommand
+    implements:
+    - ScriptableFramework.DeveloperConsole.IConsoleCommand
+    inheritedMembers:
+    - ScriptableFramework.DeveloperConsole.ConsoleCommand.CommandWord
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: ScriptableFramework.DeveloperConsole.StateMachineCommand.stateMachine
+      commentId: F:ScriptableFramework.DeveloperConsole.StateMachineCommand.stateMachine
+      language: CSharp
+      name:
+        CSharp: stateMachine
+        VB: stateMachine
+      nameWithType:
+        CSharp: StateMachineCommand.stateMachine
+        VB: StateMachineCommand.stateMachine
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.StateMachineCommand.stateMachine
+        VB: ScriptableFramework.DeveloperConsole.StateMachineCommand.stateMachine
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: stateMachine
+        path: ''
+        startLine: 887
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected StateMachineBase stateMachine
+          VB: Protected stateMachine As StateMachineBase
+        return:
+          type: Global.StateMachineBase
+      modifiers:
+        CSharp:
+        - protected
+        VB:
+        - Protected
+    - id: ScriptableFramework.DeveloperConsole.StateMachineCommand.Process(System.String[])
+      commentId: M:ScriptableFramework.DeveloperConsole.StateMachineCommand.Process(System.String[])
+      language: CSharp
+      name:
+        CSharp: Process(String[])
+        VB: Process(String())
+      nameWithType:
+        CSharp: StateMachineCommand.Process(String[])
+        VB: StateMachineCommand.Process(String())
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.StateMachineCommand.Process(System.String[])
+        VB: ScriptableFramework.DeveloperConsole.StateMachineCommand.Process(System.String())
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: Process
+        path: ''
+        startLine: 894
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public override bool Process(string[] args)
+          VB: Public Overrides Function Process(args As String()) As Boolean
+        parameters:
+        - id: args
+          type: System.String[]
+          description: ''
+        return:
+          type: System.Boolean
+          description: ''
+      overload: ScriptableFramework.DeveloperConsole.StateMachineCommand.Process*
+      overridden: ScriptableFramework.DeveloperConsole.ConsoleCommand.Process(System.String[])
+      modifiers:
+        CSharp:
+        - public
+        - override
+        VB:
+        - Public
+        - Overrides
+  - id: ScriptableFramework.DeveloperConsole.StringEventCommand
+    commentId: T:ScriptableFramework.DeveloperConsole.StringEventCommand
+    language: CSharp
+    name:
+      CSharp: StringEventCommand
+      VB: StringEventCommand
+    nameWithType:
+      CSharp: StringEventCommand
+      VB: StringEventCommand
+    qualifiedName:
+      CSharp: ScriptableFramework.DeveloperConsole.StringEventCommand
+      VB: ScriptableFramework.DeveloperConsole.StringEventCommand
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: ScriptableFramework.DeveloperConsole
+    source:
+      id: StringEventCommand
+      path: ''
+      startLine: 922
+    summary: "\n\n"
+    example: []
+    syntax:
+      content:
+        CSharp: 'public class StringEventCommand : ConsoleCommand, IConsoleCommand'
+        VB: >-
+          Public Class StringEventCommand
+
+              Inherits ConsoleCommand
+
+              Implements IConsoleCommand
+    inheritance:
+    - System.Object
+    - ScriptableFramework.DeveloperConsole.ConsoleCommand
+    implements:
+    - ScriptableFramework.DeveloperConsole.IConsoleCommand
+    inheritedMembers:
+    - ScriptableFramework.DeveloperConsole.ConsoleCommand.CommandWord
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: ScriptableFramework.DeveloperConsole.StringEventCommand.stringEvent
+      commentId: F:ScriptableFramework.DeveloperConsole.StringEventCommand.stringEvent
+      language: CSharp
+      name:
+        CSharp: stringEvent
+        VB: stringEvent
+      nameWithType:
+        CSharp: StringEventCommand.stringEvent
+        VB: StringEventCommand.stringEvent
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.StringEventCommand.stringEvent
+        VB: ScriptableFramework.DeveloperConsole.StringEventCommand.stringEvent
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: stringEvent
+        path: ''
+        startLine: 928
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected StringEvent stringEvent
+          VB: Protected stringEvent As StringEvent
+        return:
+          type: Global.StringEvent
+      modifiers:
+        CSharp:
+        - protected
+        VB:
+        - Protected
+    - id: ScriptableFramework.DeveloperConsole.StringEventCommand.Process(System.String[])
+      commentId: M:ScriptableFramework.DeveloperConsole.StringEventCommand.Process(System.String[])
+      language: CSharp
+      name:
+        CSharp: Process(String[])
+        VB: Process(String())
+      nameWithType:
+        CSharp: StringEventCommand.Process(String[])
+        VB: StringEventCommand.Process(String())
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.StringEventCommand.Process(System.String[])
+        VB: ScriptableFramework.DeveloperConsole.StringEventCommand.Process(System.String())
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: Process
+        path: ''
+        startLine: 935
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public override bool Process(string[] args)
+          VB: Public Overrides Function Process(args As String()) As Boolean
+        parameters:
+        - id: args
+          type: System.String[]
+          description: ''
+        return:
+          type: System.Boolean
+          description: ''
+      overload: ScriptableFramework.DeveloperConsole.StringEventCommand.Process*
+      overridden: ScriptableFramework.DeveloperConsole.ConsoleCommand.Process(System.String[])
+      modifiers:
+        CSharp:
+        - public
+        - override
+        VB:
+        - Public
+        - Overrides
+  - id: ScriptableFramework.DeveloperConsole.Vector3EventCommand
+    commentId: T:ScriptableFramework.DeveloperConsole.Vector3EventCommand
+    language: CSharp
+    name:
+      CSharp: Vector3EventCommand
+      VB: Vector3EventCommand
+    nameWithType:
+      CSharp: Vector3EventCommand
+      VB: Vector3EventCommand
+    qualifiedName:
+      CSharp: ScriptableFramework.DeveloperConsole.Vector3EventCommand
+      VB: ScriptableFramework.DeveloperConsole.Vector3EventCommand
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: ScriptableFramework.DeveloperConsole
+    source:
+      id: Vector3EventCommand
+      path: ''
+      startLine: 956
+    summary: "\n\n"
+    example: []
+    syntax:
+      content:
+        CSharp: 'public class Vector3EventCommand : ConsoleCommand, IConsoleCommand'
+        VB: >-
+          Public Class Vector3EventCommand
+
+              Inherits ConsoleCommand
+
+              Implements IConsoleCommand
+    inheritance:
+    - System.Object
+    - ScriptableFramework.DeveloperConsole.ConsoleCommand
+    implements:
+    - ScriptableFramework.DeveloperConsole.IConsoleCommand
+    inheritedMembers:
+    - ScriptableFramework.DeveloperConsole.ConsoleCommand.CommandWord
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: ScriptableFramework.DeveloperConsole.Vector3EventCommand.vector3Event
+      commentId: F:ScriptableFramework.DeveloperConsole.Vector3EventCommand.vector3Event
+      language: CSharp
+      name:
+        CSharp: vector3Event
+        VB: vector3Event
+      nameWithType:
+        CSharp: Vector3EventCommand.vector3Event
+        VB: Vector3EventCommand.vector3Event
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.Vector3EventCommand.vector3Event
+        VB: ScriptableFramework.DeveloperConsole.Vector3EventCommand.vector3Event
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: vector3Event
+        path: ''
+        startLine: 962
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected Vector3Event vector3Event
+          VB: Protected vector3Event As Vector3Event
+        return:
+          type: Global.Vector3Event
+      modifiers:
+        CSharp:
+        - protected
+        VB:
+        - Protected
+    - id: ScriptableFramework.DeveloperConsole.Vector3EventCommand.Process(System.String[])
+      commentId: M:ScriptableFramework.DeveloperConsole.Vector3EventCommand.Process(System.String[])
+      language: CSharp
+      name:
+        CSharp: Process(String[])
+        VB: Process(String())
+      nameWithType:
+        CSharp: Vector3EventCommand.Process(String[])
+        VB: Vector3EventCommand.Process(String())
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.Vector3EventCommand.Process(System.String[])
+        VB: ScriptableFramework.DeveloperConsole.Vector3EventCommand.Process(System.String())
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: Process
+        path: ''
+        startLine: 969
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public override bool Process(string[] args)
+          VB: Public Overrides Function Process(args As String()) As Boolean
+        parameters:
+        - id: args
+          type: System.String[]
+          description: ''
+        return:
+          type: System.Boolean
+          description: ''
+      overload: ScriptableFramework.DeveloperConsole.Vector3EventCommand.Process*
+      overridden: ScriptableFramework.DeveloperConsole.ConsoleCommand.Process(System.String[])
+      modifiers:
+        CSharp:
+        - public
+        - override
+        VB:
+        - Public
+        - Overrides
+  - id: ScriptableFramework.DeveloperConsole.ConsoleCommandEntry
+    commentId: T:ScriptableFramework.DeveloperConsole.ConsoleCommandEntry
+    language: CSharp
+    name:
+      CSharp: ConsoleCommandEntry
+      VB: ConsoleCommandEntry
+    nameWithType:
+      CSharp: ConsoleCommandEntry
+      VB: ConsoleCommandEntry
+    qualifiedName:
+      CSharp: ScriptableFramework.DeveloperConsole.ConsoleCommandEntry
+      VB: ScriptableFramework.DeveloperConsole.ConsoleCommandEntry
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: ScriptableFramework.DeveloperConsole
+    source:
+      id: ConsoleCommandEntry
+      path: ''
+      startLine: 993
+    summary: "\n\n"
+    example: []
+    syntax:
+      content:
+        CSharp: 'public class ConsoleCommandEntry : ConsoleEntry'
+        VB: >-
+          Public Class ConsoleCommandEntry
+
+              Inherits ConsoleEntry
+    inheritance:
+    - System.Object
+    - ScriptableFramework.DeveloperConsole.ConsoleEntry
+    inheritedMembers:
+    - ScriptableFramework.DeveloperConsole.ConsoleEntry.entryText
+    - ScriptableFramework.DeveloperConsole.ConsoleEntry.Awake
+    - ScriptableFramework.DeveloperConsole.ConsoleEntry.SetText(System.String)
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: ScriptableFramework.DeveloperConsole.ConsoleCommandEntry.GetText
+      commentId: M:ScriptableFramework.DeveloperConsole.ConsoleCommandEntry.GetText
+      language: CSharp
+      name:
+        CSharp: GetText()
+        VB: GetText()
+      nameWithType:
+        CSharp: ConsoleCommandEntry.GetText()
+        VB: ConsoleCommandEntry.GetText()
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.ConsoleCommandEntry.GetText()
+        VB: ScriptableFramework.DeveloperConsole.ConsoleCommandEntry.GetText()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: GetText
+        path: ''
+        startLine: 998
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public virtual void GetText()
+          VB: Public Overridable Sub GetText
+      overload: ScriptableFramework.DeveloperConsole.ConsoleCommandEntry.GetText*
+      modifiers:
+        CSharp:
+        - public
+        - virtual
+        VB:
+        - Public
+        - Overridable
+  - id: ScriptableFramework.DeveloperConsole.ConsoleEntry
+    commentId: T:ScriptableFramework.DeveloperConsole.ConsoleEntry
+    language: CSharp
+    name:
+      CSharp: ConsoleEntry
+      VB: ConsoleEntry
+    nameWithType:
+      CSharp: ConsoleEntry
+      VB: ConsoleEntry
+    qualifiedName:
+      CSharp: ScriptableFramework.DeveloperConsole.ConsoleEntry
+      VB: ScriptableFramework.DeveloperConsole.ConsoleEntry
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: ScriptableFramework.DeveloperConsole
+    source:
+      id: ConsoleEntry
+      path: ''
+      startLine: 1014
+    summary: "\n\n"
+    example: []
+    syntax:
+      content:
+        CSharp: 'public class ConsoleEntry : MonoBehaviour'
+        VB: >-
+          Public Class ConsoleEntry
+
+              Inherits MonoBehaviour
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: ScriptableFramework.DeveloperConsole.ConsoleEntry.entryText
+      commentId: F:ScriptableFramework.DeveloperConsole.ConsoleEntry.entryText
+      language: CSharp
+      name:
+        CSharp: entryText
+        VB: entryText
+      nameWithType:
+        CSharp: ConsoleEntry.entryText
+        VB: ConsoleEntry.entryText
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.ConsoleEntry.entryText
+        VB: ScriptableFramework.DeveloperConsole.ConsoleEntry.entryText
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: entryText
+        path: ''
+        startLine: 1020
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected TextMeshProUGUI entryText
+          VB: Protected entryText As TextMeshProUGUI
+        return:
+          type: Global.TextMeshProUGUI
+      modifiers:
+        CSharp:
+        - protected
+        VB:
+        - Protected
+    - id: ScriptableFramework.DeveloperConsole.ConsoleEntry.Awake
+      commentId: M:ScriptableFramework.DeveloperConsole.ConsoleEntry.Awake
+      language: CSharp
+      name:
+        CSharp: Awake()
+        VB: Awake()
+      nameWithType:
+        CSharp: ConsoleEntry.Awake()
+        VB: ConsoleEntry.Awake()
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.ConsoleEntry.Awake()
+        VB: ScriptableFramework.DeveloperConsole.ConsoleEntry.Awake()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: Awake
+        path: ''
+        startLine: 1025
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: protected virtual void Awake()
+          VB: Protected Overridable Sub Awake
+      overload: ScriptableFramework.DeveloperConsole.ConsoleEntry.Awake*
+      modifiers:
+        CSharp:
+        - protected
+        - virtual
+        VB:
+        - Protected
+        - Overridable
+    - id: ScriptableFramework.DeveloperConsole.ConsoleEntry.SetText(System.String)
+      commentId: M:ScriptableFramework.DeveloperConsole.ConsoleEntry.SetText(System.String)
+      language: CSharp
+      name:
+        CSharp: SetText(String)
+        VB: SetText(String)
+      nameWithType:
+        CSharp: ConsoleEntry.SetText(String)
+        VB: ConsoleEntry.SetText(String)
+      qualifiedName:
+        CSharp: ScriptableFramework.DeveloperConsole.ConsoleEntry.SetText(System.String)
+        VB: ScriptableFramework.DeveloperConsole.ConsoleEntry.SetText(System.String)
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: ScriptableFramework.DeveloperConsole
+      source:
+        id: SetText
+        path: ''
+        startLine: 1034
+      summary: "\n\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public virtual void SetText(string commandText)
+          VB: Public Overridable Sub SetText(commandText As String)
+        parameters:
+        - id: commandText
+          type: System.String
+          description: ''
+      overload: ScriptableFramework.DeveloperConsole.ConsoleEntry.SetText*
+      modifiers:
+        CSharp:
+        - public
+        - virtual
+        VB:
+        - Public
+        - Overridable
+references:
+  System:
+    name:
+      CSharp:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+        isExternal: true
+      VB:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+    isDefinition: true
+    commentId: N:System
+  System.Object:
+    name:
+      CSharp:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      VB:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Object
+  System.Boolean:
+    name:
+      CSharp:
+      - id: System.Boolean
+        name: Boolean
+        nameWithType: Boolean
+        qualifiedName: System.Boolean
+        isExternal: true
+      VB:
+      - id: System.Boolean
+        name: Boolean
+        nameWithType: Boolean
+        qualifiedName: System.Boolean
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Boolean
+  System.String:
+    name:
+      CSharp:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      VB:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.String
+  Global.Vector2:
+    name:
+      CSharp:
+      - id: Global.Vector2
+        name: Vector2
+        nameWithType: Vector2
+        qualifiedName: Vector2
+        isExternal: true
+      VB:
+      - id: Global.Vector2
+        name: Vector2
+        nameWithType: Vector2
+        qualifiedName: Vector2
+        isExternal: true
+    isDefinition: true
+    commentId: '!:Global.Vector2'
+  ScriptableFramework.DeveloperConsole.CommandArguments.TryParse*:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.CommandArguments.TryParse*
+        name: TryParse
+        nameWithType: CommandArguments.TryParse
+        qualifiedName: ScriptableFramework.DeveloperConsole.CommandArguments.TryParse
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.CommandArguments.TryParse*
+        name: TryParse
+        nameWithType: CommandArguments.TryParse
+        qualifiedName: ScriptableFramework.DeveloperConsole.CommandArguments.TryParse
+    isDefinition: true
+    commentId: Overload:ScriptableFramework.DeveloperConsole.CommandArguments.TryParse
+  Global.Vector3:
+    name:
+      CSharp:
+      - id: Global.Vector3
+        name: Vector3
+        nameWithType: Vector3
+        qualifiedName: Vector3
+        isExternal: true
+      VB:
+      - id: Global.Vector3
+        name: Vector3
+        nameWithType: Vector3
+        qualifiedName: Vector3
+        isExternal: true
+    isDefinition: true
+    commentId: '!:Global.Vector3'
+  Global.Bounds:
+    name:
+      CSharp:
+      - id: Global.Bounds
+        name: Bounds
+        nameWithType: Bounds
+        qualifiedName: Bounds
+        isExternal: true
+      VB:
+      - id: Global.Bounds
+        name: Bounds
+        nameWithType: Bounds
+        qualifiedName: Bounds
+        isExternal: true
+    isDefinition: true
+    commentId: '!:Global.Bounds'
+  ScriptableFramework.DeveloperConsole.CommandArguments:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.CommandArguments
+        name: CommandArguments
+        nameWithType: CommandArguments
+        qualifiedName: ScriptableFramework.DeveloperConsole.CommandArguments
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.CommandArguments
+        name: CommandArguments
+        nameWithType: CommandArguments
+        qualifiedName: ScriptableFramework.DeveloperConsole.CommandArguments
+    isDefinition: true
+    commentId: T:ScriptableFramework.DeveloperConsole.CommandArguments
+  System.Collections.Generic.IEnumerable`1:
+    name:
+      CSharp:
+      - id: System.Collections.Generic.IEnumerable`1
+        name: IEnumerable
+        nameWithType: IEnumerable
+        qualifiedName: System.Collections.Generic.IEnumerable
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Collections.Generic.IEnumerable`1
+        name: IEnumerable
+        nameWithType: IEnumerable
+        qualifiedName: System.Collections.Generic.IEnumerable
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: T:System.Collections.Generic.IEnumerable`1
+  System.Collections.Generic:
+    name:
+      CSharp:
+      - name: System.Collections.Generic
+        nameWithType: System.Collections.Generic
+        qualifiedName: System.Collections.Generic
+        isExternal: true
+      VB:
+      - name: System.Collections.Generic
+        nameWithType: System.Collections.Generic
+        qualifiedName: System.Collections.Generic
+    isDefinition: true
+    commentId: N:System.Collections.Generic
+  System.Collections.Generic.IEnumerable{ScriptableFramework.DeveloperConsole.IConsoleCommand}:
+    name:
+      CSharp:
+      - id: System.Collections.Generic.IEnumerable`1
+        name: IEnumerable
+        nameWithType: IEnumerable
+        qualifiedName: System.Collections.Generic.IEnumerable
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: ScriptableFramework.DeveloperConsole.IConsoleCommand
+        name: IConsoleCommand
+        nameWithType: IConsoleCommand
+        qualifiedName: ScriptableFramework.DeveloperConsole.IConsoleCommand
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Collections.Generic.IEnumerable`1
+        name: IEnumerable
+        nameWithType: IEnumerable
+        qualifiedName: System.Collections.Generic.IEnumerable
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: ScriptableFramework.DeveloperConsole.IConsoleCommand
+        name: IConsoleCommand
+        nameWithType: IConsoleCommand
+        qualifiedName: ScriptableFramework.DeveloperConsole.IConsoleCommand
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Collections.Generic.IEnumerable`1
+    parent: System.Collections.Generic
+    commentId: T:System.Collections.Generic.IEnumerable{ScriptableFramework.DeveloperConsole.IConsoleCommand}
+  ScriptableFramework.DeveloperConsole.DeveloperConsole.#ctor*:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.DeveloperConsole.#ctor*
+        name: DeveloperConsole
+        nameWithType: DeveloperConsole.DeveloperConsole
+        qualifiedName: ScriptableFramework.DeveloperConsole.DeveloperConsole.DeveloperConsole
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.DeveloperConsole.#ctor*
+        name: DeveloperConsole
+        nameWithType: DeveloperConsole.DeveloperConsole
+        qualifiedName: ScriptableFramework.DeveloperConsole.DeveloperConsole.DeveloperConsole
+    isDefinition: true
+    commentId: Overload:ScriptableFramework.DeveloperConsole.DeveloperConsole.#ctor
+  ScriptableFramework.DeveloperConsole.DeveloperConsole.ProcessCommand*:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.DeveloperConsole.ProcessCommand*
+        name: ProcessCommand
+        nameWithType: DeveloperConsole.ProcessCommand
+        qualifiedName: ScriptableFramework.DeveloperConsole.DeveloperConsole.ProcessCommand
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.DeveloperConsole.ProcessCommand*
+        name: ProcessCommand
+        nameWithType: DeveloperConsole.ProcessCommand
+        qualifiedName: ScriptableFramework.DeveloperConsole.DeveloperConsole.ProcessCommand
+    isDefinition: true
+    commentId: Overload:ScriptableFramework.DeveloperConsole.DeveloperConsole.ProcessCommand
+  System.String[]:
+    name:
+      CSharp:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: '[]'
+        nameWithType: '[]'
+        qualifiedName: '[]'
+      VB:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: ()
+        nameWithType: ()
+        qualifiedName: ()
+    isDefinition: false
+  ScriptableFramework.DeveloperConsole.DeveloperConsole:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.DeveloperConsole
+        name: DeveloperConsole
+        nameWithType: DeveloperConsole
+        qualifiedName: ScriptableFramework.DeveloperConsole.DeveloperConsole
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.DeveloperConsole
+        name: DeveloperConsole
+        nameWithType: DeveloperConsole
+        qualifiedName: ScriptableFramework.DeveloperConsole.DeveloperConsole
+    isDefinition: true
+    parent: ScriptableFramework.DeveloperConsole
+    commentId: T:ScriptableFramework.DeveloperConsole.DeveloperConsole
+  System.Collections.Generic.List`1:
+    name:
+      CSharp:
+      - id: System.Collections.Generic.List`1
+        name: List
+        nameWithType: List
+        qualifiedName: System.Collections.Generic.List
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Collections.Generic.List`1
+        name: List
+        nameWithType: List
+        qualifiedName: System.Collections.Generic.List
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: T:System.Collections.Generic.List`1
+  System.Collections.Generic.List{ScriptableFramework.DeveloperConsole.ConsoleCommand}:
+    name:
+      CSharp:
+      - id: System.Collections.Generic.List`1
+        name: List
+        nameWithType: List
+        qualifiedName: System.Collections.Generic.List
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: ScriptableFramework.DeveloperConsole.ConsoleCommand
+        name: ConsoleCommand
+        nameWithType: ConsoleCommand
+        qualifiedName: ScriptableFramework.DeveloperConsole.ConsoleCommand
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Collections.Generic.List`1
+        name: List
+        nameWithType: List
+        qualifiedName: System.Collections.Generic.List
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: ScriptableFramework.DeveloperConsole.ConsoleCommand
+        name: ConsoleCommand
+        nameWithType: ConsoleCommand
+        qualifiedName: ScriptableFramework.DeveloperConsole.ConsoleCommand
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Collections.Generic.List`1
+    parent: System.Collections.Generic
+    commentId: T:System.Collections.Generic.List{ScriptableFramework.DeveloperConsole.ConsoleCommand}
+  Global.GameObject:
+    name:
+      CSharp:
+      - id: Global.GameObject
+        name: GameObject
+        nameWithType: GameObject
+        qualifiedName: GameObject
+        isExternal: true
+      VB:
+      - id: Global.GameObject
+        name: GameObject
+        nameWithType: GameObject
+        qualifiedName: GameObject
+        isExternal: true
+    isDefinition: true
+    commentId: '!:Global.GameObject'
+  Global.TMP_InputField:
+    name:
+      CSharp:
+      - id: Global.TMP_InputField
+        name: TMP_InputField
+        nameWithType: TMP_InputField
+        qualifiedName: TMP_InputField
+        isExternal: true
+      VB:
+      - id: Global.TMP_InputField
+        name: TMP_InputField
+        nameWithType: TMP_InputField
+        qualifiedName: TMP_InputField
+        isExternal: true
+    isDefinition: true
+    commentId: '!:Global.TMP_InputField'
+  Global.Transform:
+    name:
+      CSharp:
+      - id: Global.Transform
+        name: Transform
+        nameWithType: Transform
+        qualifiedName: Transform
+        isExternal: true
+      VB:
+      - id: Global.Transform
+        name: Transform
+        nameWithType: Transform
+        qualifiedName: Transform
+        isExternal: true
+    isDefinition: true
+    commentId: '!:Global.Transform'
+  System.Int32:
+    name:
+      CSharp:
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+      VB:
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Int32
+  ScriptableFramework.DeveloperConsole:
+    name:
+      CSharp:
+      - name: ScriptableFramework.DeveloperConsole
+        nameWithType: ScriptableFramework.DeveloperConsole
+        qualifiedName: ScriptableFramework.DeveloperConsole
+      VB:
+      - name: ScriptableFramework.DeveloperConsole
+        nameWithType: ScriptableFramework.DeveloperConsole
+        qualifiedName: ScriptableFramework.DeveloperConsole
+    isDefinition: true
+    commentId: N:ScriptableFramework.DeveloperConsole
+  ScriptableFramework.DeveloperConsole.ConsoleEntry:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.ConsoleEntry
+        name: ConsoleEntry
+        nameWithType: ConsoleEntry
+        qualifiedName: ScriptableFramework.DeveloperConsole.ConsoleEntry
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.ConsoleEntry
+        name: ConsoleEntry
+        nameWithType: ConsoleEntry
+        qualifiedName: ScriptableFramework.DeveloperConsole.ConsoleEntry
+    isDefinition: true
+    parent: ScriptableFramework.DeveloperConsole
+    commentId: T:ScriptableFramework.DeveloperConsole.ConsoleEntry
+  ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour
+        name: DeveloperConsoleBehaviour
+        nameWithType: DeveloperConsoleBehaviour
+        qualifiedName: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour
+        name: DeveloperConsoleBehaviour
+        nameWithType: DeveloperConsoleBehaviour
+        qualifiedName: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour
+    isDefinition: true
+    parent: ScriptableFramework.DeveloperConsole
+    commentId: T:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour
+  ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.DeveloperConsole*:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.DeveloperConsole*
+        name: DeveloperConsole
+        nameWithType: DeveloperConsoleBehaviour.DeveloperConsole
+        qualifiedName: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.DeveloperConsole
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.DeveloperConsole*
+        name: DeveloperConsole
+        nameWithType: DeveloperConsoleBehaviour.DeveloperConsole
+        qualifiedName: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.DeveloperConsole
+    isDefinition: true
+    commentId: Overload:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.DeveloperConsole
+  ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.Awake*:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.Awake*
+        name: Awake
+        nameWithType: DeveloperConsoleBehaviour.Awake
+        qualifiedName: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.Awake
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.Awake*
+        name: Awake
+        nameWithType: DeveloperConsoleBehaviour.Awake
+        qualifiedName: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.Awake
+    isDefinition: true
+    commentId: Overload:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.Awake
+  ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.SortCommands*:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.SortCommands*
+        name: SortCommands
+        nameWithType: DeveloperConsoleBehaviour.SortCommands
+        qualifiedName: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.SortCommands
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.SortCommands*
+        name: SortCommands
+        nameWithType: DeveloperConsoleBehaviour.SortCommands
+        qualifiedName: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.SortCommands
+    isDefinition: true
+    commentId: Overload:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.SortCommands
+  ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.OnEnable*:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.OnEnable*
+        name: OnEnable
+        nameWithType: DeveloperConsoleBehaviour.OnEnable
+        qualifiedName: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.OnEnable
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.OnEnable*
+        name: OnEnable
+        nameWithType: DeveloperConsoleBehaviour.OnEnable
+        qualifiedName: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.OnEnable
+    isDefinition: true
+    commentId: Overload:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.OnEnable
+  ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.OnDisable*:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.OnDisable*
+        name: OnDisable
+        nameWithType: DeveloperConsoleBehaviour.OnDisable
+        qualifiedName: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.OnDisable
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.OnDisable*
+        name: OnDisable
+        nameWithType: DeveloperConsoleBehaviour.OnDisable
+        qualifiedName: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.OnDisable
+    isDefinition: true
+    commentId: Overload:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.OnDisable
+  Global.LogType:
+    name:
+      CSharp:
+      - id: Global.LogType
+        name: LogType
+        nameWithType: LogType
+        qualifiedName: LogType
+        isExternal: true
+      VB:
+      - id: Global.LogType
+        name: LogType
+        nameWithType: LogType
+        qualifiedName: LogType
+        isExternal: true
+    isDefinition: true
+    commentId: '!:Global.LogType'
+  ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.HandleLog*:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.HandleLog*
+        name: HandleLog
+        nameWithType: DeveloperConsoleBehaviour.HandleLog
+        qualifiedName: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.HandleLog
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.HandleLog*
+        name: HandleLog
+        nameWithType: DeveloperConsoleBehaviour.HandleLog
+        qualifiedName: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.HandleLog
+    isDefinition: true
+    commentId: Overload:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.HandleLog
+  ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.InstantiateNewEntry*:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.InstantiateNewEntry*
+        name: InstantiateNewEntry
+        nameWithType: DeveloperConsoleBehaviour.InstantiateNewEntry
+        qualifiedName: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.InstantiateNewEntry
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.InstantiateNewEntry*
+        name: InstantiateNewEntry
+        nameWithType: DeveloperConsoleBehaviour.InstantiateNewEntry
+        qualifiedName: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.InstantiateNewEntry
+    isDefinition: true
+    commentId: Overload:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.InstantiateNewEntry
+  System.Collections:
+    name:
+      CSharp:
+      - name: System.Collections
+        nameWithType: System.Collections
+        qualifiedName: System.Collections
+        isExternal: true
+      VB:
+      - name: System.Collections
+        nameWithType: System.Collections
+        qualifiedName: System.Collections
+    isDefinition: true
+    commentId: N:System.Collections
+  System.Collections.IEnumerator:
+    name:
+      CSharp:
+      - id: System.Collections.IEnumerator
+        name: IEnumerator
+        nameWithType: IEnumerator
+        qualifiedName: System.Collections.IEnumerator
+        isExternal: true
+      VB:
+      - id: System.Collections.IEnumerator
+        name: IEnumerator
+        nameWithType: IEnumerator
+        qualifiedName: System.Collections.IEnumerator
+        isExternal: true
+    isDefinition: true
+    parent: System.Collections
+    commentId: T:System.Collections.IEnumerator
+  ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ClearExcessChildren*:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ClearExcessChildren*
+        name: ClearExcessChildren
+        nameWithType: DeveloperConsoleBehaviour.ClearExcessChildren
+        qualifiedName: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ClearExcessChildren
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ClearExcessChildren*
+        name: ClearExcessChildren
+        nameWithType: DeveloperConsoleBehaviour.ClearExcessChildren
+        qualifiedName: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ClearExcessChildren
+    isDefinition: true
+    commentId: Overload:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ClearExcessChildren
+  Global.CallbackContext:
+    name:
+      CSharp:
+      - id: Global.CallbackContext
+        name: CallbackContext
+        nameWithType: CallbackContext
+        qualifiedName: CallbackContext
+        isExternal: true
+      VB:
+      - id: Global.CallbackContext
+        name: CallbackContext
+        nameWithType: CallbackContext
+        qualifiedName: CallbackContext
+        isExternal: true
+    isDefinition: true
+    commentId: '!:Global.CallbackContext'
+  ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.Toggle*:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.Toggle*
+        name: Toggle
+        nameWithType: DeveloperConsoleBehaviour.Toggle
+        qualifiedName: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.Toggle
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.Toggle*
+        name: Toggle
+        nameWithType: DeveloperConsoleBehaviour.Toggle
+        qualifiedName: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.Toggle
+    isDefinition: true
+    commentId: Overload:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.Toggle
+  ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ProcessCommand*:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ProcessCommand*
+        name: ProcessCommand
+        nameWithType: DeveloperConsoleBehaviour.ProcessCommand
+        qualifiedName: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ProcessCommand
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ProcessCommand*
+        name: ProcessCommand
+        nameWithType: DeveloperConsoleBehaviour.ProcessCommand
+        qualifiedName: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ProcessCommand
+    isDefinition: true
+    commentId: Overload:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ProcessCommand
+  ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.SetInputFieldText*:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.SetInputFieldText*
+        name: SetInputFieldText
+        nameWithType: DeveloperConsoleBehaviour.SetInputFieldText
+        qualifiedName: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.SetInputFieldText
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.SetInputFieldText*
+        name: SetInputFieldText
+        nameWithType: DeveloperConsoleBehaviour.SetInputFieldText
+        qualifiedName: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.SetInputFieldText
+    isDefinition: true
+    commentId: Overload:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.SetInputFieldText
+  ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ClearConsoleEntries*:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ClearConsoleEntries*
+        name: ClearConsoleEntries
+        nameWithType: DeveloperConsoleBehaviour.ClearConsoleEntries
+        qualifiedName: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ClearConsoleEntries
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ClearConsoleEntries*
+        name: ClearConsoleEntries
+        nameWithType: DeveloperConsoleBehaviour.ClearConsoleEntries
+        qualifiedName: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ClearConsoleEntries
+    isDefinition: true
+    commentId: Overload:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ClearConsoleEntries
+  ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ShowCommandHelp*:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ShowCommandHelp*
+        name: ShowCommandHelp
+        nameWithType: DeveloperConsoleBehaviour.ShowCommandHelp
+        qualifiedName: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ShowCommandHelp
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ShowCommandHelp*
+        name: ShowCommandHelp
+        nameWithType: DeveloperConsoleBehaviour.ShowCommandHelp
+        qualifiedName: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ShowCommandHelp
+    isDefinition: true
+    commentId: Overload:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.ShowCommandHelp
+  ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.MakeBold*:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.MakeBold*
+        name: MakeBold
+        nameWithType: DeveloperConsoleBehaviour.MakeBold
+        qualifiedName: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.MakeBold
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.MakeBold*
+        name: MakeBold
+        nameWithType: DeveloperConsoleBehaviour.MakeBold
+        qualifiedName: ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.MakeBold
+    isDefinition: true
+    commentId: Overload:ScriptableFramework.DeveloperConsole.DeveloperConsoleBehaviour.MakeBold
+  Global.AppEvent:
+    name:
+      CSharp:
+      - id: Global.AppEvent
+        name: AppEvent
+        nameWithType: AppEvent
+        qualifiedName: AppEvent
+        isExternal: true
+      VB:
+      - id: Global.AppEvent
+        name: AppEvent
+        nameWithType: AppEvent
+        qualifiedName: AppEvent
+        isExternal: true
+    isDefinition: true
+  ScriptableFramework.DeveloperConsole.Extensions.RaiseFromConsole*:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.Extensions.RaiseFromConsole*
+        name: RaiseFromConsole
+        nameWithType: Extensions.RaiseFromConsole
+        qualifiedName: ScriptableFramework.DeveloperConsole.Extensions.RaiseFromConsole
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.Extensions.RaiseFromConsole*
+        name: RaiseFromConsole
+        nameWithType: Extensions.RaiseFromConsole
+        qualifiedName: ScriptableFramework.DeveloperConsole.Extensions.RaiseFromConsole
+    isDefinition: true
+    commentId: Overload:ScriptableFramework.DeveloperConsole.Extensions.RaiseFromConsole
+  Global.AppEvent`1:
+    name:
+      CSharp:
+      - id: Global.AppEvent`1
+        name: AppEvent
+        nameWithType: AppEvent
+        qualifiedName: AppEvent
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: ''
+        nameWithType: ''
+        qualifiedName: ''
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: Global.AppEvent`1
+        name: AppEvent
+        nameWithType: AppEvent
+        qualifiedName: AppEvent
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: ''
+        nameWithType: ''
+        qualifiedName: ''
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: '!:Global.AppEvent`1'
+  Global.AppEvent{{T}}:
+    name:
+      CSharp:
+      - id: Global.AppEvent`1
+        name: AppEvent
+        nameWithType: AppEvent
+        qualifiedName: AppEvent
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: Global.AppEvent`1
+        name: AppEvent
+        nameWithType: AppEvent
+        qualifiedName: AppEvent
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: Global.AppEvent`1
+    commentId: '!:Global.AppEvent{``0}'
+  T:
+    name:
+      CSharp:
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      VB:
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+    isDefinition: true
+    commentId: '!:T'
+  '{T}':
+    name:
+      CSharp:
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      VB:
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+    isDefinition: false
+    definition: T
+    commentId: '!:T'
+  ScriptableFramework.DeveloperConsole.Extensions:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.Extensions
+        name: Extensions
+        nameWithType: Extensions
+        qualifiedName: ScriptableFramework.DeveloperConsole.Extensions
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.Extensions
+        name: Extensions
+        nameWithType: Extensions
+        qualifiedName: ScriptableFramework.DeveloperConsole.Extensions
+    isDefinition: true
+    commentId: T:ScriptableFramework.DeveloperConsole.Extensions
+  ScriptableFramework.DeveloperConsole.IConsoleCommand:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.IConsoleCommand
+        name: IConsoleCommand
+        nameWithType: IConsoleCommand
+        qualifiedName: ScriptableFramework.DeveloperConsole.IConsoleCommand
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.IConsoleCommand
+        name: IConsoleCommand
+        nameWithType: IConsoleCommand
+        qualifiedName: ScriptableFramework.DeveloperConsole.IConsoleCommand
+    isDefinition: true
+    parent: ScriptableFramework.DeveloperConsole
+    commentId: T:ScriptableFramework.DeveloperConsole.IConsoleCommand
+  ScriptableFramework.DeveloperConsole.ConsoleCommand.CommandWord*:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.ConsoleCommand.CommandWord*
+        name: CommandWord
+        nameWithType: ConsoleCommand.CommandWord
+        qualifiedName: ScriptableFramework.DeveloperConsole.ConsoleCommand.CommandWord
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.ConsoleCommand.CommandWord*
+        name: CommandWord
+        nameWithType: ConsoleCommand.CommandWord
+        qualifiedName: ScriptableFramework.DeveloperConsole.ConsoleCommand.CommandWord
+    isDefinition: true
+    commentId: Overload:ScriptableFramework.DeveloperConsole.ConsoleCommand.CommandWord
+  ScriptableFramework.DeveloperConsole.IConsoleCommand.CommandWord:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.IConsoleCommand.CommandWord
+        name: CommandWord
+        nameWithType: IConsoleCommand.CommandWord
+        qualifiedName: ScriptableFramework.DeveloperConsole.IConsoleCommand.CommandWord
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.IConsoleCommand.CommandWord
+        name: CommandWord
+        nameWithType: IConsoleCommand.CommandWord
+        qualifiedName: ScriptableFramework.DeveloperConsole.IConsoleCommand.CommandWord
+    isDefinition: true
+    parent: ScriptableFramework.DeveloperConsole.IConsoleCommand
+    commentId: P:ScriptableFramework.DeveloperConsole.IConsoleCommand.CommandWord
+  ScriptableFramework.DeveloperConsole.ConsoleCommand.Process*:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.ConsoleCommand.Process*
+        name: Process
+        nameWithType: ConsoleCommand.Process
+        qualifiedName: ScriptableFramework.DeveloperConsole.ConsoleCommand.Process
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.ConsoleCommand.Process*
+        name: Process
+        nameWithType: ConsoleCommand.Process
+        qualifiedName: ScriptableFramework.DeveloperConsole.ConsoleCommand.Process
+    isDefinition: true
+    commentId: Overload:ScriptableFramework.DeveloperConsole.ConsoleCommand.Process
+  ScriptableFramework.DeveloperConsole.IConsoleCommand.Process(System.String[]):
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.IConsoleCommand.Process(System.String[])
+        name: Process
+        nameWithType: IConsoleCommand.Process
+        qualifiedName: ScriptableFramework.DeveloperConsole.IConsoleCommand.Process
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: '[]'
+        nameWithType: '[]'
+        qualifiedName: '[]'
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.IConsoleCommand.Process(System.String[])
+        name: Process
+        nameWithType: IConsoleCommand.Process
+        qualifiedName: ScriptableFramework.DeveloperConsole.IConsoleCommand.Process
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: ()
+        nameWithType: ()
+        qualifiedName: ()
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: ScriptableFramework.DeveloperConsole.IConsoleCommand
+    commentId: M:ScriptableFramework.DeveloperConsole.IConsoleCommand.Process(System.String[])
+  ScriptableFramework.DeveloperConsole.ConsoleCommand:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.ConsoleCommand
+        name: ConsoleCommand
+        nameWithType: ConsoleCommand
+        qualifiedName: ScriptableFramework.DeveloperConsole.ConsoleCommand
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.ConsoleCommand
+        name: ConsoleCommand
+        nameWithType: ConsoleCommand
+        qualifiedName: ScriptableFramework.DeveloperConsole.ConsoleCommand
+    isDefinition: true
+    parent: ScriptableFramework.DeveloperConsole
+    commentId: T:ScriptableFramework.DeveloperConsole.ConsoleCommand
+  ScriptableFramework.DeveloperConsole.IConsoleCommand.CommandWord*:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.IConsoleCommand.CommandWord*
+        name: CommandWord
+        nameWithType: IConsoleCommand.CommandWord
+        qualifiedName: ScriptableFramework.DeveloperConsole.IConsoleCommand.CommandWord
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.IConsoleCommand.CommandWord*
+        name: CommandWord
+        nameWithType: IConsoleCommand.CommandWord
+        qualifiedName: ScriptableFramework.DeveloperConsole.IConsoleCommand.CommandWord
+    isDefinition: true
+    commentId: Overload:ScriptableFramework.DeveloperConsole.IConsoleCommand.CommandWord
+  ScriptableFramework.DeveloperConsole.IConsoleCommand.Process*:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.IConsoleCommand.Process*
+        name: Process
+        nameWithType: IConsoleCommand.Process
+        qualifiedName: ScriptableFramework.DeveloperConsole.IConsoleCommand.Process
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.IConsoleCommand.Process*
+        name: Process
+        nameWithType: IConsoleCommand.Process
+        qualifiedName: ScriptableFramework.DeveloperConsole.IConsoleCommand.Process
+    isDefinition: true
+    commentId: Overload:ScriptableFramework.DeveloperConsole.IConsoleCommand.Process
+  ScriptableFramework.DeveloperConsole.ConsoleCommand.CommandWord:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.ConsoleCommand.CommandWord
+        name: CommandWord
+        nameWithType: ConsoleCommand.CommandWord
+        qualifiedName: ScriptableFramework.DeveloperConsole.ConsoleCommand.CommandWord
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.ConsoleCommand.CommandWord
+        name: CommandWord
+        nameWithType: ConsoleCommand.CommandWord
+        qualifiedName: ScriptableFramework.DeveloperConsole.ConsoleCommand.CommandWord
+    isDefinition: true
+    parent: ScriptableFramework.DeveloperConsole.ConsoleCommand
+    commentId: P:ScriptableFramework.DeveloperConsole.ConsoleCommand.CommandWord
+  ScriptableFramework.DeveloperConsole.ConsoleCommand.Process(System.String[]):
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.ConsoleCommand.Process(System.String[])
+        name: Process
+        nameWithType: ConsoleCommand.Process
+        qualifiedName: ScriptableFramework.DeveloperConsole.ConsoleCommand.Process
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: '[]'
+        nameWithType: '[]'
+        qualifiedName: '[]'
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.ConsoleCommand.Process(System.String[])
+        name: Process
+        nameWithType: ConsoleCommand.Process
+        qualifiedName: ScriptableFramework.DeveloperConsole.ConsoleCommand.Process
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: ()
+        nameWithType: ()
+        qualifiedName: ()
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: ScriptableFramework.DeveloperConsole.ConsoleCommand
+    commentId: M:ScriptableFramework.DeveloperConsole.ConsoleCommand.Process(System.String[])
+  ScriptableFramework.DeveloperConsole.ClearCommand.Process*:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.ClearCommand.Process*
+        name: Process
+        nameWithType: ClearCommand.Process
+        qualifiedName: ScriptableFramework.DeveloperConsole.ClearCommand.Process
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.ClearCommand.Process*
+        name: Process
+        nameWithType: ClearCommand.Process
+        qualifiedName: ScriptableFramework.DeveloperConsole.ClearCommand.Process
+    isDefinition: true
+    commentId: Overload:ScriptableFramework.DeveloperConsole.ClearCommand.Process
+  ScriptableFramework.DeveloperConsole.ClearCommand:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.ClearCommand
+        name: ClearCommand
+        nameWithType: ClearCommand
+        qualifiedName: ScriptableFramework.DeveloperConsole.ClearCommand
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.ClearCommand
+        name: ClearCommand
+        nameWithType: ClearCommand
+        qualifiedName: ScriptableFramework.DeveloperConsole.ClearCommand
+    isDefinition: true
+    commentId: T:ScriptableFramework.DeveloperConsole.ClearCommand
+  ScriptableFramework.DeveloperConsole.GravityCommand.Process*:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.GravityCommand.Process*
+        name: Process
+        nameWithType: GravityCommand.Process
+        qualifiedName: ScriptableFramework.DeveloperConsole.GravityCommand.Process
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.GravityCommand.Process*
+        name: Process
+        nameWithType: GravityCommand.Process
+        qualifiedName: ScriptableFramework.DeveloperConsole.GravityCommand.Process
+    isDefinition: true
+    commentId: Overload:ScriptableFramework.DeveloperConsole.GravityCommand.Process
+  ScriptableFramework.DeveloperConsole.GravityCommand:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.GravityCommand
+        name: GravityCommand
+        nameWithType: GravityCommand
+        qualifiedName: ScriptableFramework.DeveloperConsole.GravityCommand
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.GravityCommand
+        name: GravityCommand
+        nameWithType: GravityCommand
+        qualifiedName: ScriptableFramework.DeveloperConsole.GravityCommand
+    isDefinition: true
+    commentId: T:ScriptableFramework.DeveloperConsole.GravityCommand
+  ScriptableFramework.DeveloperConsole.HelpCommand.Process*:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.HelpCommand.Process*
+        name: Process
+        nameWithType: HelpCommand.Process
+        qualifiedName: ScriptableFramework.DeveloperConsole.HelpCommand.Process
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.HelpCommand.Process*
+        name: Process
+        nameWithType: HelpCommand.Process
+        qualifiedName: ScriptableFramework.DeveloperConsole.HelpCommand.Process
+    isDefinition: true
+    commentId: Overload:ScriptableFramework.DeveloperConsole.HelpCommand.Process
+  ScriptableFramework.DeveloperConsole.HelpCommand:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.HelpCommand
+        name: HelpCommand
+        nameWithType: HelpCommand
+        qualifiedName: ScriptableFramework.DeveloperConsole.HelpCommand
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.HelpCommand
+        name: HelpCommand
+        nameWithType: HelpCommand
+        qualifiedName: ScriptableFramework.DeveloperConsole.HelpCommand
+    isDefinition: true
+    commentId: T:ScriptableFramework.DeveloperConsole.HelpCommand
+  ScriptableFramework.DeveloperConsole.LoadSceneCommand.Process*:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.LoadSceneCommand.Process*
+        name: Process
+        nameWithType: LoadSceneCommand.Process
+        qualifiedName: ScriptableFramework.DeveloperConsole.LoadSceneCommand.Process
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.LoadSceneCommand.Process*
+        name: Process
+        nameWithType: LoadSceneCommand.Process
+        qualifiedName: ScriptableFramework.DeveloperConsole.LoadSceneCommand.Process
+    isDefinition: true
+    commentId: Overload:ScriptableFramework.DeveloperConsole.LoadSceneCommand.Process
+  ScriptableFramework.DeveloperConsole.LoadSceneCommand:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.LoadSceneCommand
+        name: LoadSceneCommand
+        nameWithType: LoadSceneCommand
+        qualifiedName: ScriptableFramework.DeveloperConsole.LoadSceneCommand
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.LoadSceneCommand
+        name: LoadSceneCommand
+        nameWithType: LoadSceneCommand
+        qualifiedName: ScriptableFramework.DeveloperConsole.LoadSceneCommand
+    isDefinition: true
+    commentId: T:ScriptableFramework.DeveloperConsole.LoadSceneCommand
+  ScriptableFramework.DeveloperConsole.LogCommand.Process*:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.LogCommand.Process*
+        name: Process
+        nameWithType: LogCommand.Process
+        qualifiedName: ScriptableFramework.DeveloperConsole.LogCommand.Process
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.LogCommand.Process*
+        name: Process
+        nameWithType: LogCommand.Process
+        qualifiedName: ScriptableFramework.DeveloperConsole.LogCommand.Process
+    isDefinition: true
+    commentId: Overload:ScriptableFramework.DeveloperConsole.LogCommand.Process
+  ScriptableFramework.DeveloperConsole.LogCommand:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.LogCommand
+        name: LogCommand
+        nameWithType: LogCommand
+        qualifiedName: ScriptableFramework.DeveloperConsole.LogCommand
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.LogCommand
+        name: LogCommand
+        nameWithType: LogCommand
+        qualifiedName: ScriptableFramework.DeveloperConsole.LogCommand
+    isDefinition: true
+    commentId: T:ScriptableFramework.DeveloperConsole.LogCommand
+  ScriptableFramework.DeveloperConsole.TimeScaleCommand.Process*:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.TimeScaleCommand.Process*
+        name: Process
+        nameWithType: TimeScaleCommand.Process
+        qualifiedName: ScriptableFramework.DeveloperConsole.TimeScaleCommand.Process
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.TimeScaleCommand.Process*
+        name: Process
+        nameWithType: TimeScaleCommand.Process
+        qualifiedName: ScriptableFramework.DeveloperConsole.TimeScaleCommand.Process
+    isDefinition: true
+    commentId: Overload:ScriptableFramework.DeveloperConsole.TimeScaleCommand.Process
+  ScriptableFramework.DeveloperConsole.TimeScaleCommand:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.TimeScaleCommand
+        name: TimeScaleCommand
+        nameWithType: TimeScaleCommand
+        qualifiedName: ScriptableFramework.DeveloperConsole.TimeScaleCommand
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.TimeScaleCommand
+        name: TimeScaleCommand
+        nameWithType: TimeScaleCommand
+        qualifiedName: ScriptableFramework.DeveloperConsole.TimeScaleCommand
+    isDefinition: true
+    commentId: T:ScriptableFramework.DeveloperConsole.TimeScaleCommand
+  ScriptableFramework.DeveloperConsole.AppEventCommand.Process*:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.AppEventCommand.Process*
+        name: Process
+        nameWithType: AppEventCommand.Process
+        qualifiedName: ScriptableFramework.DeveloperConsole.AppEventCommand.Process
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.AppEventCommand.Process*
+        name: Process
+        nameWithType: AppEventCommand.Process
+        qualifiedName: ScriptableFramework.DeveloperConsole.AppEventCommand.Process
+    isDefinition: true
+    commentId: Overload:ScriptableFramework.DeveloperConsole.AppEventCommand.Process
+  ScriptableFramework.DeveloperConsole.AppEventCommand:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.AppEventCommand
+        name: AppEventCommand
+        nameWithType: AppEventCommand
+        qualifiedName: ScriptableFramework.DeveloperConsole.AppEventCommand
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.AppEventCommand
+        name: AppEventCommand
+        nameWithType: AppEventCommand
+        qualifiedName: ScriptableFramework.DeveloperConsole.AppEventCommand
+    isDefinition: true
+    commentId: T:ScriptableFramework.DeveloperConsole.AppEventCommand
+  Global.BoolEvent:
+    name:
+      CSharp:
+      - id: Global.BoolEvent
+        name: BoolEvent
+        nameWithType: BoolEvent
+        qualifiedName: BoolEvent
+        isExternal: true
+      VB:
+      - id: Global.BoolEvent
+        name: BoolEvent
+        nameWithType: BoolEvent
+        qualifiedName: BoolEvent
+        isExternal: true
+    isDefinition: true
+    commentId: '!:Global.BoolEvent'
+  ScriptableFramework.DeveloperConsole.BoolEventCommand.Process*:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.BoolEventCommand.Process*
+        name: Process
+        nameWithType: BoolEventCommand.Process
+        qualifiedName: ScriptableFramework.DeveloperConsole.BoolEventCommand.Process
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.BoolEventCommand.Process*
+        name: Process
+        nameWithType: BoolEventCommand.Process
+        qualifiedName: ScriptableFramework.DeveloperConsole.BoolEventCommand.Process
+    isDefinition: true
+    commentId: Overload:ScriptableFramework.DeveloperConsole.BoolEventCommand.Process
+  ScriptableFramework.DeveloperConsole.BoolEventCommand:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.BoolEventCommand
+        name: BoolEventCommand
+        nameWithType: BoolEventCommand
+        qualifiedName: ScriptableFramework.DeveloperConsole.BoolEventCommand
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.BoolEventCommand
+        name: BoolEventCommand
+        nameWithType: BoolEventCommand
+        qualifiedName: ScriptableFramework.DeveloperConsole.BoolEventCommand
+    isDefinition: true
+    commentId: T:ScriptableFramework.DeveloperConsole.BoolEventCommand
+  Global.BoundsEvent:
+    name:
+      CSharp:
+      - id: Global.BoundsEvent
+        name: BoundsEvent
+        nameWithType: BoundsEvent
+        qualifiedName: BoundsEvent
+        isExternal: true
+      VB:
+      - id: Global.BoundsEvent
+        name: BoundsEvent
+        nameWithType: BoundsEvent
+        qualifiedName: BoundsEvent
+        isExternal: true
+    isDefinition: true
+    commentId: '!:Global.BoundsEvent'
+  ScriptableFramework.DeveloperConsole.BoundsEventCommand.Process*:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.BoundsEventCommand.Process*
+        name: Process
+        nameWithType: BoundsEventCommand.Process
+        qualifiedName: ScriptableFramework.DeveloperConsole.BoundsEventCommand.Process
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.BoundsEventCommand.Process*
+        name: Process
+        nameWithType: BoundsEventCommand.Process
+        qualifiedName: ScriptableFramework.DeveloperConsole.BoundsEventCommand.Process
+    isDefinition: true
+    commentId: Overload:ScriptableFramework.DeveloperConsole.BoundsEventCommand.Process
+  ScriptableFramework.DeveloperConsole.BoundsEventCommand:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.BoundsEventCommand
+        name: BoundsEventCommand
+        nameWithType: BoundsEventCommand
+        qualifiedName: ScriptableFramework.DeveloperConsole.BoundsEventCommand
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.BoundsEventCommand
+        name: BoundsEventCommand
+        nameWithType: BoundsEventCommand
+        qualifiedName: ScriptableFramework.DeveloperConsole.BoundsEventCommand
+    isDefinition: true
+    commentId: T:ScriptableFramework.DeveloperConsole.BoundsEventCommand
+  Global.FloatEvent:
+    name:
+      CSharp:
+      - id: Global.FloatEvent
+        name: FloatEvent
+        nameWithType: FloatEvent
+        qualifiedName: FloatEvent
+        isExternal: true
+      VB:
+      - id: Global.FloatEvent
+        name: FloatEvent
+        nameWithType: FloatEvent
+        qualifiedName: FloatEvent
+        isExternal: true
+    isDefinition: true
+    commentId: '!:Global.FloatEvent'
+  ScriptableFramework.DeveloperConsole.FloatEventCommand.Process*:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.FloatEventCommand.Process*
+        name: Process
+        nameWithType: FloatEventCommand.Process
+        qualifiedName: ScriptableFramework.DeveloperConsole.FloatEventCommand.Process
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.FloatEventCommand.Process*
+        name: Process
+        nameWithType: FloatEventCommand.Process
+        qualifiedName: ScriptableFramework.DeveloperConsole.FloatEventCommand.Process
+    isDefinition: true
+    commentId: Overload:ScriptableFramework.DeveloperConsole.FloatEventCommand.Process
+  ScriptableFramework.DeveloperConsole.FloatEventCommand:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.FloatEventCommand
+        name: FloatEventCommand
+        nameWithType: FloatEventCommand
+        qualifiedName: ScriptableFramework.DeveloperConsole.FloatEventCommand
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.FloatEventCommand
+        name: FloatEventCommand
+        nameWithType: FloatEventCommand
+        qualifiedName: ScriptableFramework.DeveloperConsole.FloatEventCommand
+    isDefinition: true
+    commentId: T:ScriptableFramework.DeveloperConsole.FloatEventCommand
+  Global.IntEvent:
+    name:
+      CSharp:
+      - id: Global.IntEvent
+        name: IntEvent
+        nameWithType: IntEvent
+        qualifiedName: IntEvent
+        isExternal: true
+      VB:
+      - id: Global.IntEvent
+        name: IntEvent
+        nameWithType: IntEvent
+        qualifiedName: IntEvent
+        isExternal: true
+    isDefinition: true
+    commentId: '!:Global.IntEvent'
+  ScriptableFramework.DeveloperConsole.IntEventCommand.Process*:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.IntEventCommand.Process*
+        name: Process
+        nameWithType: IntEventCommand.Process
+        qualifiedName: ScriptableFramework.DeveloperConsole.IntEventCommand.Process
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.IntEventCommand.Process*
+        name: Process
+        nameWithType: IntEventCommand.Process
+        qualifiedName: ScriptableFramework.DeveloperConsole.IntEventCommand.Process
+    isDefinition: true
+    commentId: Overload:ScriptableFramework.DeveloperConsole.IntEventCommand.Process
+  ScriptableFramework.DeveloperConsole.IntEventCommand:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.IntEventCommand
+        name: IntEventCommand
+        nameWithType: IntEventCommand
+        qualifiedName: ScriptableFramework.DeveloperConsole.IntEventCommand
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.IntEventCommand
+        name: IntEventCommand
+        nameWithType: IntEventCommand
+        qualifiedName: ScriptableFramework.DeveloperConsole.IntEventCommand
+    isDefinition: true
+    commentId: T:ScriptableFramework.DeveloperConsole.IntEventCommand
+  Global.StateMachineBase:
+    name:
+      CSharp:
+      - id: Global.StateMachineBase
+        name: StateMachineBase
+        nameWithType: StateMachineBase
+        qualifiedName: StateMachineBase
+        isExternal: true
+      VB:
+      - id: Global.StateMachineBase
+        name: StateMachineBase
+        nameWithType: StateMachineBase
+        qualifiedName: StateMachineBase
+        isExternal: true
+    isDefinition: true
+    commentId: '!:Global.StateMachineBase'
+  ScriptableFramework.DeveloperConsole.StateMachineCommand.Process*:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.StateMachineCommand.Process*
+        name: Process
+        nameWithType: StateMachineCommand.Process
+        qualifiedName: ScriptableFramework.DeveloperConsole.StateMachineCommand.Process
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.StateMachineCommand.Process*
+        name: Process
+        nameWithType: StateMachineCommand.Process
+        qualifiedName: ScriptableFramework.DeveloperConsole.StateMachineCommand.Process
+    isDefinition: true
+    commentId: Overload:ScriptableFramework.DeveloperConsole.StateMachineCommand.Process
+  ScriptableFramework.DeveloperConsole.StateMachineCommand:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.StateMachineCommand
+        name: StateMachineCommand
+        nameWithType: StateMachineCommand
+        qualifiedName: ScriptableFramework.DeveloperConsole.StateMachineCommand
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.StateMachineCommand
+        name: StateMachineCommand
+        nameWithType: StateMachineCommand
+        qualifiedName: ScriptableFramework.DeveloperConsole.StateMachineCommand
+    isDefinition: true
+    commentId: T:ScriptableFramework.DeveloperConsole.StateMachineCommand
+  Global.StringEvent:
+    name:
+      CSharp:
+      - id: Global.StringEvent
+        name: StringEvent
+        nameWithType: StringEvent
+        qualifiedName: StringEvent
+        isExternal: true
+      VB:
+      - id: Global.StringEvent
+        name: StringEvent
+        nameWithType: StringEvent
+        qualifiedName: StringEvent
+        isExternal: true
+    isDefinition: true
+    commentId: '!:Global.StringEvent'
+  ScriptableFramework.DeveloperConsole.StringEventCommand.Process*:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.StringEventCommand.Process*
+        name: Process
+        nameWithType: StringEventCommand.Process
+        qualifiedName: ScriptableFramework.DeveloperConsole.StringEventCommand.Process
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.StringEventCommand.Process*
+        name: Process
+        nameWithType: StringEventCommand.Process
+        qualifiedName: ScriptableFramework.DeveloperConsole.StringEventCommand.Process
+    isDefinition: true
+    commentId: Overload:ScriptableFramework.DeveloperConsole.StringEventCommand.Process
+  ScriptableFramework.DeveloperConsole.StringEventCommand:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.StringEventCommand
+        name: StringEventCommand
+        nameWithType: StringEventCommand
+        qualifiedName: ScriptableFramework.DeveloperConsole.StringEventCommand
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.StringEventCommand
+        name: StringEventCommand
+        nameWithType: StringEventCommand
+        qualifiedName: ScriptableFramework.DeveloperConsole.StringEventCommand
+    isDefinition: true
+    commentId: T:ScriptableFramework.DeveloperConsole.StringEventCommand
+  Global.Vector3Event:
+    name:
+      CSharp:
+      - id: Global.Vector3Event
+        name: Vector3Event
+        nameWithType: Vector3Event
+        qualifiedName: Vector3Event
+        isExternal: true
+      VB:
+      - id: Global.Vector3Event
+        name: Vector3Event
+        nameWithType: Vector3Event
+        qualifiedName: Vector3Event
+        isExternal: true
+    isDefinition: true
+    commentId: '!:Global.Vector3Event'
+  ScriptableFramework.DeveloperConsole.Vector3EventCommand.Process*:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.Vector3EventCommand.Process*
+        name: Process
+        nameWithType: Vector3EventCommand.Process
+        qualifiedName: ScriptableFramework.DeveloperConsole.Vector3EventCommand.Process
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.Vector3EventCommand.Process*
+        name: Process
+        nameWithType: Vector3EventCommand.Process
+        qualifiedName: ScriptableFramework.DeveloperConsole.Vector3EventCommand.Process
+    isDefinition: true
+    commentId: Overload:ScriptableFramework.DeveloperConsole.Vector3EventCommand.Process
+  ScriptableFramework.DeveloperConsole.Vector3EventCommand:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.Vector3EventCommand
+        name: Vector3EventCommand
+        nameWithType: Vector3EventCommand
+        qualifiedName: ScriptableFramework.DeveloperConsole.Vector3EventCommand
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.Vector3EventCommand
+        name: Vector3EventCommand
+        nameWithType: Vector3EventCommand
+        qualifiedName: ScriptableFramework.DeveloperConsole.Vector3EventCommand
+    isDefinition: true
+    commentId: T:ScriptableFramework.DeveloperConsole.Vector3EventCommand
+  ScriptableFramework.DeveloperConsole.ConsoleEntry.entryText:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.ConsoleEntry.entryText
+        name: entryText
+        nameWithType: ConsoleEntry.entryText
+        qualifiedName: ScriptableFramework.DeveloperConsole.ConsoleEntry.entryText
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.ConsoleEntry.entryText
+        name: entryText
+        nameWithType: ConsoleEntry.entryText
+        qualifiedName: ScriptableFramework.DeveloperConsole.ConsoleEntry.entryText
+    isDefinition: true
+    parent: ScriptableFramework.DeveloperConsole.ConsoleEntry
+    commentId: F:ScriptableFramework.DeveloperConsole.ConsoleEntry.entryText
+  ScriptableFramework.DeveloperConsole.ConsoleEntry.Awake:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.ConsoleEntry.Awake
+        name: Awake
+        nameWithType: ConsoleEntry.Awake
+        qualifiedName: ScriptableFramework.DeveloperConsole.ConsoleEntry.Awake
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.ConsoleEntry.Awake
+        name: Awake
+        nameWithType: ConsoleEntry.Awake
+        qualifiedName: ScriptableFramework.DeveloperConsole.ConsoleEntry.Awake
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: ScriptableFramework.DeveloperConsole.ConsoleEntry
+    commentId: M:ScriptableFramework.DeveloperConsole.ConsoleEntry.Awake
+  ScriptableFramework.DeveloperConsole.ConsoleEntry.SetText(System.String):
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.ConsoleEntry.SetText(System.String)
+        name: SetText
+        nameWithType: ConsoleEntry.SetText
+        qualifiedName: ScriptableFramework.DeveloperConsole.ConsoleEntry.SetText
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.ConsoleEntry.SetText(System.String)
+        name: SetText
+        nameWithType: ConsoleEntry.SetText
+        qualifiedName: ScriptableFramework.DeveloperConsole.ConsoleEntry.SetText
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: ScriptableFramework.DeveloperConsole.ConsoleEntry
+    commentId: M:ScriptableFramework.DeveloperConsole.ConsoleEntry.SetText(System.String)
+  ScriptableFramework.DeveloperConsole.ConsoleCommandEntry.GetText*:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.ConsoleCommandEntry.GetText*
+        name: GetText
+        nameWithType: ConsoleCommandEntry.GetText
+        qualifiedName: ScriptableFramework.DeveloperConsole.ConsoleCommandEntry.GetText
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.ConsoleCommandEntry.GetText*
+        name: GetText
+        nameWithType: ConsoleCommandEntry.GetText
+        qualifiedName: ScriptableFramework.DeveloperConsole.ConsoleCommandEntry.GetText
+    isDefinition: true
+    commentId: Overload:ScriptableFramework.DeveloperConsole.ConsoleCommandEntry.GetText
+  ScriptableFramework.DeveloperConsole.ConsoleCommandEntry:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.ConsoleCommandEntry
+        name: ConsoleCommandEntry
+        nameWithType: ConsoleCommandEntry
+        qualifiedName: ScriptableFramework.DeveloperConsole.ConsoleCommandEntry
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.ConsoleCommandEntry
+        name: ConsoleCommandEntry
+        nameWithType: ConsoleCommandEntry
+        qualifiedName: ScriptableFramework.DeveloperConsole.ConsoleCommandEntry
+    isDefinition: true
+    commentId: T:ScriptableFramework.DeveloperConsole.ConsoleCommandEntry
+  Global.TextMeshProUGUI:
+    name:
+      CSharp:
+      - id: Global.TextMeshProUGUI
+        name: TextMeshProUGUI
+        nameWithType: TextMeshProUGUI
+        qualifiedName: TextMeshProUGUI
+        isExternal: true
+      VB:
+      - id: Global.TextMeshProUGUI
+        name: TextMeshProUGUI
+        nameWithType: TextMeshProUGUI
+        qualifiedName: TextMeshProUGUI
+        isExternal: true
+    isDefinition: true
+    commentId: '!:Global.TextMeshProUGUI'
+  ScriptableFramework.DeveloperConsole.ConsoleEntry.Awake*:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.ConsoleEntry.Awake*
+        name: Awake
+        nameWithType: ConsoleEntry.Awake
+        qualifiedName: ScriptableFramework.DeveloperConsole.ConsoleEntry.Awake
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.ConsoleEntry.Awake*
+        name: Awake
+        nameWithType: ConsoleEntry.Awake
+        qualifiedName: ScriptableFramework.DeveloperConsole.ConsoleEntry.Awake
+    isDefinition: true
+    commentId: Overload:ScriptableFramework.DeveloperConsole.ConsoleEntry.Awake
+  ScriptableFramework.DeveloperConsole.ConsoleEntry.SetText*:
+    name:
+      CSharp:
+      - id: ScriptableFramework.DeveloperConsole.ConsoleEntry.SetText*
+        name: SetText
+        nameWithType: ConsoleEntry.SetText
+        qualifiedName: ScriptableFramework.DeveloperConsole.ConsoleEntry.SetText
+      VB:
+      - id: ScriptableFramework.DeveloperConsole.ConsoleEntry.SetText*
+        name: SetText
+        nameWithType: ConsoleEntry.SetText
+        qualifiedName: ScriptableFramework.DeveloperConsole.ConsoleEntry.SetText
+    isDefinition: true
+    commentId: Overload:ScriptableFramework.DeveloperConsole.ConsoleEntry.SetText
