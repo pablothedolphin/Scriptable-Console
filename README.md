@@ -7,6 +7,7 @@ In this repository you will find the source code, assets and project settings of
 ## NOTICE
 
 > This package as a dependancy on [Scriptable Framework](https://github.com/pablothedolphin/Scriptable-Framework) to allow for modular invokation of methods in your application.
+> [Documentation can be found here](https://pablothedolphin.github.io/Scriptable-Console/).
 
 ---
 
@@ -38,11 +39,11 @@ If you can't see the latest version of Scriptable Console in the package manager
 
 ## Roadmap
 
-> Roadmap is subject to change. Last reviewed 14th of February 2020.
+> Roadmap is subject to change. Last reviewed 18th of February 2020.
 
 | Version | Defining Feature                  						  				    |
 | ------- | --------------------------------------------------------------------------- |
 | ~0.1~   | ~Foundation of defining command words and executing them has been set~	    |
 | ~0.2~   | ~Unity Log messages and previous commands now appear below the input field~	|
-| 1.0     | Full DocFX documentation and API clean up             									    |
+| 1.0     | Full DocFX documentation and API clean up             						|
 | 2.0     | Now written for runtime UIElements instead of classic UGUI                  |
